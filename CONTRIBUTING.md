@@ -67,4 +67,4 @@ git push -u origin <your_branch_name>
 
 **15.** Voila! You have made a PR to the project. Sit back and relax while your PR is reviewed by the maintainers.
 
-In case you need any help, please feel free to contact us [here](trf.robosoft@vit.edu).
+In case you need any help, please feel free to contact us [here](mailto:trf.robosoft@vit.edu).
