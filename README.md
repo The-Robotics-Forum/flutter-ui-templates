@@ -7,3 +7,6 @@ Feel free to get in touch with us and join our [discussion](https://github.com/T
 
 
 [Click here](CONTRIBUTING.md) to contribute to the project.
+
+# Organization
+![image](https://user-images.githubusercontent.com/90468365/178148078-f2740742-9e6d-44e0-aab3-08a74f4aacf1.png)
