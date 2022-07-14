@@ -63,7 +63,7 @@ git push -u origin <your_branch_name>
 
 **12.** To create a pull request, click on `compare and pull requests`. 
 
-Please ensure you compare your feature branch to the `develop branch` and then make a PR.
+Please ensure you compare your feature branch to the `develop` branch and then make a PR.
 
 **13.** Add appropriate title and description to your pull request explaining your changes and efforts done.
 
