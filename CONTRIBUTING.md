@@ -49,8 +49,10 @@ git add .
 
 **10.** Commit your changes.
 
+Commit message should be in `#<issue_number> Fixed <issue_name>` format
+
 ```
-git commit -m "a Relevant message"
+git commit -m "a Commit message"
 ```
 
 **11.** Push the committed changes in your feature branch to your remote repository.
@@ -59,7 +61,9 @@ git commit -m "a Relevant message"
 git push -u origin <your_branch_name>
 ```
 
-**12.** To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repository you are supposed to make a PR to.
+**12.** To create a pull request, click on `compare and pull requests`. 
+
+Please ensure you compare your feature branch to the `develop branch` and then make a PR.
 
 **13.** Add appropriate title and description to your pull request explaining your changes and efforts done.
 
