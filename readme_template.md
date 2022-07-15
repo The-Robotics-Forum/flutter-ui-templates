@@ -1,4 +1,4 @@
-# Project/Script Name
+# Package Name
 
 
 ## Aim
