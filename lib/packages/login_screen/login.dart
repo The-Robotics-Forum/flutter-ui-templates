@@ -72,12 +72,13 @@ class _LoginScreenState extends State<LoginScreen> {
                         fontSize: 15,
                       ),),
                     const SizedBox(height: 30,),
-                    const SizedBox(
+                    SizedBox(
                       width: 260,
                       height: 60,
-                      child: TextField(
-                        decoration: InputDecoration(
-                            suffix: Icon(FontAwesomeIcons.envelope,color: Colors.red,),
+                      child: TextFormField(
+                        controller: nameController,
+                        decoration: const InputDecoration(
+                            suffixIcon: Icon(FontAwesomeIcons.envelope,color: Colors.red,),
                             labelText: "Email Address",
                             border: OutlineInputBorder(
                               borderRadius: BorderRadius.all(Radius.circular(8)),
@@ -90,6 +91,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       width: 260,
                       height: 60,
                       child: TextFormField(
+                        controller: passwordController,
                         obscureText: !_passwordVisible,
                         decoration: InputDecoration(
                             suffixIcon: IconButton(
@@ -101,6 +103,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                 color: Theme.of(context).primaryColorDark,
                               ),
                               onPressed: () {
+
                                 // Update the state i.e. toogle the state of passwordVisible variable
                                 setState(() {
                                   _passwordVisible = !_passwordVisible;
