@@ -18,7 +18,7 @@ cd <repository_name>
 **4.** Add a reference (remote) to the original repository.
 
 ```
-git remote add upstream https://github.com/Dezenix/<repository_name>
+git remote add upstream https://github.com/The-Robotics-Forum/<repository_name>
 ```
 
 **5.** Check the remotes for this repository.
