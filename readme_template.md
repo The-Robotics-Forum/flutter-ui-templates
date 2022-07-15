@@ -39,6 +39,10 @@ Briefly show the compilation steps of the project
 Display images/videos of output/result of your script here in README so that users can visualize it.
 
 
+## Developer Name(s)
+
+Name(s) of developer(s)
+
 ## Author(s)
 
 Name(s) of author(s)
