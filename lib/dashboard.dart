@@ -20,19 +20,21 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       drawer: appDrawer(),
       body:
-          Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              ElevatedButton(onPressed: (){Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => const CartScreen()),
-              );}, child: Text('Cart Screen')),
-              ElevatedButton(onPressed: (){Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => const CartScreen()),
-              );}, child: Text('Cart Screen'))
-            ],
+          Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                ElevatedButton(onPressed: (){Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const CartScreen()),
+                );}, child: Text('Cart Screen')),
+                ElevatedButton(onPressed: (){Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const CartScreen()),
+                );}, child: Text('Cart Screen'))
+              ],
+            ),
           ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
