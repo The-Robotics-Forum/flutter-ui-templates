@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:templates/packages/cart_screen/cart_screen.dart';
 import 'package:templates/packages/drawer/drawer.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -19,7 +20,20 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       drawer: appDrawer(),
       body:
-          Center(), // This trailing comma makes auto-formatting nicer for build methods.
+          Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              ElevatedButton(onPressed: (){Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const CartScreen()),
+              );}, child: Text('Cart Screen')),
+              ElevatedButton(onPressed: (){Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const CartScreen()),
+              );}, child: Text('Cart Screen'))
+            ],
+          ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
