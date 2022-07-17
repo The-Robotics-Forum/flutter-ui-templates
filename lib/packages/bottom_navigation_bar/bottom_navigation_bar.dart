@@ -21,16 +21,16 @@ class _BottomNavigationBarUIState extends State<BottomNavigationBarUI> {
         index: _currentIndex,
         children: [
           Center(
-            child: Text('Screen ${_currentIndex+1}'),
+            child: Text('Screen ${_currentIndex+1} Home'),
           ),
           Center(
-            child: Text('Screen ${_currentIndex+1}'),
+            child: Text('Screen ${_currentIndex+1} Likes'),
           ),
           Center(
-            child: Text('Screen ${_currentIndex+1}'),
+            child: Text('Screen ${_currentIndex+1} Search'),
           ),
           Center(
-            child: Text('Screen ${_currentIndex+1}'),
+            child: Text('Screen ${_currentIndex+1} Profile'),
           ),
         ],
       ),
