@@ -16,8 +16,18 @@ Main aim of this repository is to make things faster and convenient for all the 
 Feel free to get in touch with us and join our [discussion](https://github.com/The-Robotics-Forum/flutter-ui-templates/discussions) for updates.
 
 # Project Maintainers 😃
-- [Pavan Bhadane](https://github.com/Pavan49719) 
-- [Siddhant Pawar](https://github.com/SiddhantPawar03)
+<table>
+<tr>
+<td align="center"><a href="https://github.com/Pavan49719"><img src="https://avatars.githubusercontent.com/u/90468365?v=4" alt="Heet kumar Kothadiya
+" width=150px height=150px /></a></br>
+
+[Pavan Bhadane](https://github.com/Pavan49719)
+
+ <td align="center"><a href="https://github.com/SiddhantPawar03"><img src="https://avatars.githubusercontent.com/u/85052056?v=4" width=150px height=150px /></a></br>
+
+[Siddhant Pawar](https://github.com/SiddhantPawar03)
+</tr>
+</table>
 
 # Contributing Guidelines
 [Click here](CONTRIBUTING.md)
