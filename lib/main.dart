@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:templates/packages/login_screen/login.dart';
+
 import 'package:templates/packages/splash_screen/splash.dart';
+
+import 'package:templates/packages/drawer/drawer.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +22,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+
       home: const splashScreen(),
+
     );
   }
 }
@@ -39,6 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
+      drawer: appDrawer(),
       body:
           Center(), // This trailing comma makes auto-formatting nicer for build methods.
     );
