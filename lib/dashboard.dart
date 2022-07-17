@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:templates/packages/bottom_navigation_bar/bottom_navigation_bar.dart';
 import 'package:templates/packages/cart_screen/cart_screen.dart';
 import 'package:templates/packages/drawer/drawer.dart';
 
@@ -31,8 +32,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 );}, child: Text('Cart Screen')),
                 ElevatedButton(onPressed: (){Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => const CartScreen()),
-                );}, child: Text('Cart Screen'))
+                  MaterialPageRoute(builder: (context) => const BottomNavigationBarUI()),
+                );}, child: Text('Bottom Navigation Bar'))
               ],
             ),
           ), // This trailing comma makes auto-formatting nicer for build methods.
