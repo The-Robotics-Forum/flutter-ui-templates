@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:templates/dashboard.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);
@@ -10,7 +11,11 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
-  void click(){}
+
+  void FaceBookclick(){}
+  void Googleclick(){}
+  void Twitterclick(){}
+  void Linkedinclick(){}
 
   late bool _passwordVisible;
 
@@ -123,7 +128,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         mainAxisAlignment: MainAxisAlignment.end,
                         children: [
                           TextButton(
-                            onPressed: click,
+                            onPressed: (){},
                             child: const Text("Forget Password",
                               style: TextStyle(
                                   color: Colors.deepOrange
@@ -157,7 +162,12 @@ class _LoginScreenState extends State<LoginScreen> {
                           ),
                         ),
                       ),
-                      onTap: click,
+                      onTap: (){
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => const MyHomePage(title: 'DashBoard')),
+                        );
+                      },
                     ),
                     const SizedBox(height: 17 ,),
                     const Text("Or Login using Social Media Account",
@@ -169,20 +179,20 @@ class _LoginScreenState extends State<LoginScreen> {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         IconButton(
-                            onPressed: click,
+                            onPressed: FaceBookclick,
                             icon: const Icon(Icons.facebook,
                                 color: Colors.blue)
                         ),
                         IconButton(
-                            onPressed: click,
+                            onPressed: Googleclick,
                             icon: const Icon(FontAwesomeIcons.google,color: Colors.redAccent,)
                         ),
                         IconButton(
-                            onPressed: click,
+                            onPressed: Twitterclick,
                             icon: const Icon(FontAwesomeIcons.twitter,color: Colors.orangeAccent,)
                         ),
                         IconButton(
-                            onPressed: click,
+                            onPressed: Linkedinclick,
                             icon: const Icon(FontAwesomeIcons.linkedinIn,color: Colors.green,)
                         )
                       ],
