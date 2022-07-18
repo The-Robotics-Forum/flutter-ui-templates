@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:templates/packages/bottom_navigation_bar/bottom_navigation_bar.dart';
 import 'package:templates/packages/cart_screen/cart_screen.dart';
 import 'package:templates/packages/drawer/drawer.dart';
+import 'package:templates/packages/dropdown/dropdown.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key, required this.title}) : super(key: key);
@@ -33,7 +34,11 @@ class _MyHomePageState extends State<MyHomePage> {
                 ElevatedButton(onPressed: (){Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => const BottomNavigationBarUI()),
-                );}, child: Text('Bottom Navigation Bar'))
+                );}, child: Text('Bottom Navigation Bar')),
+                ElevatedButton(onPressed: (){Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) =>  DropDown()),
+                );}, child: Text('DropDown Menu')),
               ],
             ),
           ), // This trailing comma makes auto-formatting nicer for build methods.
