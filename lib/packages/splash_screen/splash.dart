@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
+
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 
 
 import '../onboarding/onboarding_screen.dart';
+
+import 'package:animated_splash_screen/animated_splash_screen.dart';
+import 'package:templates/packages/login_screen/login.dart';
+import 'package:page_transition/page_transition.dart';
+
 
 // ignore: camel_case_types
 class splashScreen extends StatefulWidget {
@@ -26,48 +32,38 @@ class _splashScreenState extends State<splashScreen> {
   Widget build(BuildContext context) {
     return Container(
       height: double.infinity,
-      width: double.infinity,
-      decoration: const BoxDecoration(
-        gradient: LinearGradient(begin: Alignment.topLeft, end: Alignment.bottomRight, colors: [
-          Colors.purpleAccent,
-          Colors.amber,
-          Colors.blue,
-        ]),
-      ),
-      child: SizedBox(
         width: double.infinity,
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: const[
-            CircleAvatar(
-              radius: 75,
-              backgroundImage:
-              AssetImage('assets/TRF.png'),
-              backgroundColor: Colors.transparent,
-              ),
+        child: AnimatedSplashScreen(
+            splash: Column(
+              children: const [
+                CircleAvatar(
+                  backgroundImage: AssetImage('assets/TRF.png'),
+                  radius: 75,
+                  backgroundColor: Colors.transparent,
+                ),
+                SizedBox(
+                  height: 25,
+                ),
+                Text(
+                  'The Robotics Forum',
+                  style: TextStyle(
+                    fontSize: 15,
+                    color: Colors.black,
+                    decoration: TextDecoration.none,
+                  ),
+                ),
+              ],
+            ),
+            nextScreen: const LoginScreen(),
+            splashIconSize: 300,
+          animationDuration: const Duration(seconds: 1),
+          splashTransition: SplashTransition.sizeTransition,
+          pageTransitionType: PageTransitionType.fade,
+          centered: true,
 
-            SizedBox(
-              height: 25,
-            ),
-            Text(
-              'The Robotics Forum',
-              style: TextStyle(
-
-                fontSize: 15,
-                color: Colors.black,
-                decoration: TextDecoration.none,
-              ),
-            ),
-            SizedBox(
-              height: 25,
-            ),
-            SpinKitWave(
-              color: Colors.grey,
-              size: 50.0,
-            ),
-          ],
         ),
-      ),
-    );
+
+        );
+
   }
 }
