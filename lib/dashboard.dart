@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:templates/packages/Profile_Card/profilecard.dart';
 import 'package:templates/packages/bottom_navigation_bar/bottom_navigation_bar.dart';
 import 'package:templates/packages/cart_screen/cart_screen.dart';
 import 'package:templates/packages/drawer/drawer.dart';
@@ -39,6 +40,10 @@ class _MyHomePageState extends State<MyHomePage> {
                   context,
                   MaterialPageRoute(builder: (context) =>  DropDown()),
                 );}, child: Text('DropDown Menu')),
+                ElevatedButton(onPressed: (){Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) =>  const Profilecard()),
+                );}, child: const Text('Profile Card screen')),
               ],
             ),
           ), // This trailing comma makes auto-formatting nicer for build methods.
