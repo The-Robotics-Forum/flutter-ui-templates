@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:templates/packages/login_screen/login.dart';
+
+
+import '../onboarding/onboarding_screen.dart';
 
 // ignore: camel_case_types
 class splashScreen extends StatefulWidget {
@@ -17,7 +19,7 @@ class _splashScreenState extends State<splashScreen> {
     // TODO: implement initState
     super.initState();
     Future.delayed(const Duration(seconds: 3)).then((value){
-      Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context)=> const LoginScreen()));
+      Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context)=> const OnboardingScreen()));
     });
   }
   @override
