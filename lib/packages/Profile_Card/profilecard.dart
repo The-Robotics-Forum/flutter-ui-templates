@@ -26,10 +26,13 @@ class _ProfilecardState extends State<Profilecard> {
           child: Container(
             height: 300,
             decoration: BoxDecoration(
-              gradient: const LinearGradient(begin: Alignment.centerLeft, end: Alignment.centerRight, colors: [
-                Color(0xFF348F50),
-                Color(0xFF56B4D3),
-              ]),
+              gradient: const LinearGradient(
+                  begin: Alignment.centerLeft,
+                  end: Alignment.centerRight,
+                  colors: [
+                    Color(0xFF348F50),
+                    Color(0xFF56B4D3),
+                  ]),
               borderRadius: BorderRadius.circular(15),
             ),
             child: Stack(children: [
@@ -52,12 +55,18 @@ class _ProfilecardState extends State<Profilecard> {
                           padding: EdgeInsets.all(15.0),
                           child: Text(
                             'Following',
-                            style: TextStyle(color: Colors.white, fontSize: 15, fontWeight: FontWeight.bold),
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 15,
+                                fontWeight: FontWeight.bold),
                           ),
                         ),
                         Text(
                           '1470',
-                          style: TextStyle(color: Colors.white, fontSize: 15, fontWeight: FontWeight.bold),
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 15,
+                              fontWeight: FontWeight.bold),
                         ),
                       ],
                     ),
@@ -67,12 +76,18 @@ class _ProfilecardState extends State<Profilecard> {
                           padding: EdgeInsets.all(15.0),
                           child: Text(
                             'Followers',
-                            style: TextStyle(color: Colors.white, fontSize: 15, fontWeight: FontWeight.bold),
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 15,
+                                fontWeight: FontWeight.bold),
                           ),
                         ),
                         Text(
                           '150K',
-                          style: TextStyle(color: Colors.white, fontSize: 15, fontWeight: FontWeight.bold),
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 15,
+                              fontWeight: FontWeight.bold),
                         ),
                       ],
                     ),
@@ -84,7 +99,10 @@ class _ProfilecardState extends State<Profilecard> {
                 left: 20,
                 child: Text(
                   'UserName | The Robotics Forum',
-                  style: TextStyle(color: Colors.white, fontSize: 15, fontWeight: FontWeight.bold),
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 15,
+                      fontWeight: FontWeight.bold),
                 ),
               ),
               const Positioned(
@@ -94,7 +112,10 @@ class _ProfilecardState extends State<Profilecard> {
                   width: 320,
                   child: Text(
                     'About: Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut',
-                    style: TextStyle(color: Colors.white, fontSize: 15, fontWeight: FontWeight.bold),
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 15,
+                        fontWeight: FontWeight.bold),
                   ),
                 ),
               ),
@@ -103,7 +124,10 @@ class _ProfilecardState extends State<Profilecard> {
                 left: 20,
                 child: Text(
                   'Socials:',
-                  style: TextStyle(color: Colors.white, fontSize: 15, fontWeight: FontWeight.bold),
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 15,
+                      fontWeight: FontWeight.bold),
                 ),
               ),
               Positioned(
@@ -113,22 +137,22 @@ class _ProfilecardState extends State<Profilecard> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     IconButton(
-                        onPressed:()=> open('https://www.facebook.com'),
+                        onPressed: () => open('https://www.facebook.com'),
                         icon: const Icon(Icons.facebook, color: Colors.white)),
                     IconButton(
-                        onPressed:()=> open('https://www.google.com'),
+                        onPressed: () => open('https://www.google.com'),
                         icon: const Icon(
                           FontAwesomeIcons.google,
                           color: Colors.white,
                         )),
                     IconButton(
-                        onPressed:()=> open('https://www.twitter.com'),
+                        onPressed: () => open('https://www.twitter.com'),
                         icon: const Icon(
                           FontAwesomeIcons.twitter,
                           color: Colors.white,
                         )),
                     IconButton(
-                        onPressed:()=> open('https://www.linkedin.com/'),
+                        onPressed: () => open('https://www.linkedin.com/'),
                         color: Colors.white,
                         icon: const Icon(
                           FontAwesomeIcons.linkedinIn,
@@ -145,14 +169,14 @@ class _ProfilecardState extends State<Profilecard> {
 }
 
 Future<bool> open(String url) async {
-try {
-await launch(
-url,
-enableJavaScript: true,
-);
-return true;
-} catch (e) {
-log(e.toString());
-return false;
-}
+  try {
+    await launch(
+      url,
+      enableJavaScript: true,
+    );
+    return true;
+  } catch (e) {
+    log(e.toString());
+    return false;
+  }
 }
