@@ -3,8 +3,6 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'dart:convert' as convert;
-  import 'package:http/http.dart' as http;
 
 class Profilecard extends StatefulWidget {
   const Profilecard({Key? key}) : super(key: key);
