@@ -1,5 +1,10 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:url_launcher/url_launcher.dart';
+import 'dart:convert' as convert;
+  import 'package:http/http.dart' as http;
 
 class Profilecard extends StatefulWidget {
   const Profilecard({Key? key}) : super(key: key);
@@ -111,30 +116,22 @@ class _ProfilecardState extends State<Profilecard> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     IconButton(
-                        onPressed: () {
-                          print('Facebook Pressed');
-                        },
+                        onPressed:()=> open('https://www.facebook.com'),
                         icon: const Icon(Icons.facebook, color: Colors.white)),
                     IconButton(
-                        onPressed: () {
-                          print('Facebook Pressed');
-                        },
+                        onPressed:()=> open('https://www.google.com'),
                         icon: const Icon(
                           FontAwesomeIcons.google,
                           color: Colors.white,
                         )),
                     IconButton(
-                        onPressed: () {
-                          print('Facebook Pressed');
-                        },
+                        onPressed:()=> open('https://www.twitter.com'),
                         icon: const Icon(
                           FontAwesomeIcons.twitter,
                           color: Colors.white,
                         )),
                     IconButton(
-                        onPressed: () {
-                          print('Facebook Pressed');
-                        },
+                        onPressed:()=> open('https://www.linkedin.com/'),
                         color: Colors.white,
                         icon: const Icon(
                           FontAwesomeIcons.linkedinIn,
@@ -148,4 +145,17 @@ class _ProfilecardState extends State<Profilecard> {
       ),
     );
   }
+}
+
+Future<bool> open(String url) async {
+try {
+await launch(
+url,
+enableJavaScript: true,
+);
+return true;
+} catch (e) {
+log(e.toString());
+return false;
+}
 }
