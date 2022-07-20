@@ -1,7 +1,14 @@
 import 'package:flutter/material.dart';
+
+import 'package:flutter_spinkit/flutter_spinkit.dart';
+
+
+import '../onboarding/onboarding_screen.dart';
+
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:templates/packages/login_screen/login.dart';
 import 'package:page_transition/page_transition.dart';
+
 
 // ignore: camel_case_types
 class splashScreen extends StatefulWidget {
@@ -13,7 +20,14 @@ class splashScreen extends StatefulWidget {
 
 // ignore: camel_case_types
 class _splashScreenState extends State<splashScreen> {
-
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    Future.delayed(const Duration(seconds: 3)).then((value){
+      Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context)=> const OnboardingScreen()));
+    });
+  }
   @override
   Widget build(BuildContext context) {
     return Container(
