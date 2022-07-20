@@ -57,6 +57,8 @@ dev_dependencies:
   font_awesome_flutter: ^9.2.0
   getwidget: ^3.0.1
   salomon_bottom_bar: ^3.3.1
+  url_launcher: ^6.1.5
+  http: ^0.13.4
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
