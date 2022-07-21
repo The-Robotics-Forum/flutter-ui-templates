@@ -1,4 +1,4 @@
-import 'package:ev_stations/dashboard.dart';
+import 'package:ev_stations/screens/dashboard.dart';
 import 'package:flutter/material.dart';
 
 void main() {
