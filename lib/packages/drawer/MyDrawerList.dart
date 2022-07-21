@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:templates/theme.dart';
 
 class MyDrawerList extends StatefulWidget {
   const MyDrawerList({Key? key}) : super(key: key);
@@ -38,6 +40,16 @@ class _MyDrawerListState extends State<MyDrawerList> {
             leading: Icon(Icons.feedback_outlined),
             title: const Text('Feedback'),
             onTap: (){},
+          ),
+          Consumer<ThemeNotifier>(
+            builder:(context, notifier, child) =>
+                SwitchListTile(
+                  title: Text("Dark Mode"),
+                  onChanged:(value){
+                    notifier.toggleTheme();
+                  } ,
+                  value: (notifier.darkTheme)!,
+                ),
           ),
           Divider(color: Colors.black,),
           ListTile(
