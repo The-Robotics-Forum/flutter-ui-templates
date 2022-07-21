@@ -51,9 +51,9 @@ class _MyDrawerListState extends State<MyDrawerList> {
                   value: (notifier.darkTheme)!,
                 ),
           ),
-          Divider(color: Colors.black,),
+          const Divider(color: Colors.black,),
           ListTile(
-            leading: Icon(Icons.exit_to_app_outlined),
+            leading: const Icon(Icons.exit_to_app_outlined),
             title: const Text('Exit'),
             onTap: (){},
           ),
