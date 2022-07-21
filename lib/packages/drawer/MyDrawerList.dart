@@ -16,17 +16,17 @@ class _MyDrawerListState extends State<MyDrawerList> {
       child: Column(
         children: [
           ListTile(
-            leading: Icon(Icons.home_outlined),
+            leading: const Icon(Icons.home_outlined),
             title: const Text('Home'),
             onTap: (){},
           ),
           ListTile(
-            leading: Icon(Icons.settings),
+            leading: const Icon(Icons.settings),
             title: const Text('Settings'),
             onTap: (){},
           ),
           ListTile(
-            leading: Icon(Icons.accessibility_new_outlined),
+            leading: const Icon(Icons.accessibility_new_outlined),
             title: const Text('About us'),
             onTap: (){},
           ),
