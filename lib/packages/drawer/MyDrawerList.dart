@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:templates/theme.dart';
 
@@ -55,7 +56,9 @@ class _MyDrawerListState extends State<MyDrawerList> {
           ListTile(
             leading: const Icon(Icons.exit_to_app_outlined),
             title: const Text('Exit'),
-            onTap: (){},
+            onTap: (){
+              SystemNavigator.pop();
+            },
           ),
         ],
       ),
