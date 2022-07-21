@@ -37,14 +37,14 @@ class _MyDrawerListState extends State<MyDrawerList> {
             onTap: (){},
           ),
           ListTile(
-            leading: Icon(Icons.feedback_outlined),
+            leading: const Icon(Icons.feedback_outlined),
             title: const Text('Feedback'),
             onTap: (){},
           ),
           Consumer<ThemeNotifier>(
             builder:(context, notifier, child) =>
                 SwitchListTile(
-                  title: Text("Dark Mode"),
+                  title: const Text("Dark Mode"),
                   onChanged:(value){
                     notifier.toggleTheme();
                   } ,
