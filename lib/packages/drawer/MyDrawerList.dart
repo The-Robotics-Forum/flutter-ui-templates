@@ -30,9 +30,9 @@ class _MyDrawerListState extends State<MyDrawerList> {
             title: const Text('About us'),
             onTap: (){},
           ),
-          Divider(color:Colors.black,),
+          const Divider(color:Colors.black,),
           ListTile(
-            leading: Icon(Icons.help_outline),
+            leading: const Icon(Icons.help_outline),
             title: const Text('Help'),
             onTap: (){},
           ),
