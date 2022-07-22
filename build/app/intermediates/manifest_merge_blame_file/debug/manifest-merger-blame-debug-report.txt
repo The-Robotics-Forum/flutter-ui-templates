@@ -1,0 +1,111 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.templates"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\shrey\Desktop\flutter-ui-templates\android\app\src\main\AndroidManifest.xml:3:5-67
+14-->C:\Users\shrey\Desktop\flutter-ui-templates\android\app\src\main\AndroidManifest.xml:3:22-64
+15    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" /> <!-- Provide required visibility configuration for API level 30 and above -->
+15-->C:\Users\shrey\Desktop\flutter-ui-templates\android\app\src\main\AndroidManifest.xml:4:5-76
+15-->C:\Users\shrey\Desktop\flutter-ui-templates\android\app\src\main\AndroidManifest.xml:4:22-74
+16    <queries>
+16-->C:\Users\shrey\Desktop\flutter-ui-templates\android\app\src\main\AndroidManifest.xml:6:1-17:11
+17
+18        <!-- If your app checks for SMS support -->
+19        <intent>
+19-->C:\Users\shrey\Desktop\flutter-ui-templates\android\app\src\main\AndroidManifest.xml:8:5-11:14
+20            <action android:name="android.intent.action.VIEW" />
+20-->C:\Users\shrey\Desktop\flutter-ui-templates\android\app\src\main\AndroidManifest.xml:9:9-61
+20-->C:\Users\shrey\Desktop\flutter-ui-templates\android\app\src\main\AndroidManifest.xml:9:17-58
+21
+22            <data android:scheme="sms" />
+22-->C:\Users\shrey\Desktop\flutter-ui-templates\android\app\src\main\AndroidManifest.xml:10:9-38
+22-->C:\Users\shrey\Desktop\flutter-ui-templates\android\app\src\main\AndroidManifest.xml:10:15-35
+23        </intent>
+24        <!-- If your app checks for call support -->
+25        <intent>
+25-->C:\Users\shrey\Desktop\flutter-ui-templates\android\app\src\main\AndroidManifest.xml:13:5-16:14
+26            <action android:name="android.intent.action.VIEW" />
+26-->C:\Users\shrey\Desktop\flutter-ui-templates\android\app\src\main\AndroidManifest.xml:9:9-61
+26-->C:\Users\shrey\Desktop\flutter-ui-templates\android\app\src\main\AndroidManifest.xml:9:17-58
+27
+28            <data android:scheme="tel" />
+28-->C:\Users\shrey\Desktop\flutter-ui-templates\android\app\src\main\AndroidManifest.xml:10:9-38
+28-->C:\Users\shrey\Desktop\flutter-ui-templates\android\app\src\main\AndroidManifest.xml:10:15-35
+29        </intent>
+30    </queries>
+31
+32    <application
+33        android:name="android.app.Application"
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.6.0] C:\Users\shrey\.gradle\caches\transforms-2\files-2.1\122df2e57d294d1a53db26bbc3b813c1\core-1.6.0\AndroidManifest.xml:24:18-86
+35        android:debuggable="true"
+36        android:icon="@mipmap/ic_launcher"
+37        android:label="templates"
+38        android:usesCleartextTraffic="True" >
+39        <activity
+40            android:name="com.example.templates.MainActivity"
+41            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+42            android:exported="true"
+43            android:hardwareAccelerated="true"
+44            android:launchMode="singleTop"
+45            android:theme="@style/LaunchTheme"
+46            android:windowSoftInputMode="adjustResize" >
+47
+48            <!--
+49                 Specifies an Android theme to apply to this Activity as soon as
+50                 the Android process has started. This theme is visible to the user
+51                 while the Flutter UI initializes. After that, this theme continues
+52                 to determine the Window background behind the Flutter UI.
+53            -->
+54            <meta-data
+55                android:name="io.flutter.embedding.android.NormalTheme"
+56                android:resource="@style/NormalTheme" />
+57
+58            <intent-filter>
+59                <action android:name="android.intent.action.MAIN" />
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+62            </intent-filter>
+63        </activity>
+64        <!--
+65             Don't delete the meta-data below.
+66             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+67        -->
+68        <meta-data
+69            android:name="flutterEmbedding"
+70            android:value="2" />
+71
+72        <activity
+72-->[:url_launcher_android] C:\Users\shrey\Desktop\flutter-ui-templates\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+73            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+73-->[:url_launcher_android] C:\Users\shrey\Desktop\flutter-ui-templates\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+74            android:exported="false"
+74-->[:url_launcher_android] C:\Users\shrey\Desktop\flutter-ui-templates\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+75            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+75-->[:url_launcher_android] C:\Users\shrey\Desktop\flutter-ui-templates\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+76
+77        <uses-library
+77-->[androidx.window:window:1.0.0-beta04] C:\Users\shrey\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+78            android:name="androidx.window.extensions"
+78-->[androidx.window:window:1.0.0-beta04] C:\Users\shrey\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+79            android:required="false" />
+79-->[androidx.window:window:1.0.0-beta04] C:\Users\shrey\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+80        <uses-library
+80-->[androidx.window:window:1.0.0-beta04] C:\Users\shrey\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+81            android:name="androidx.window.sidecar"
+81-->[androidx.window:window:1.0.0-beta04] C:\Users\shrey\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+82            android:required="false" />
+82-->[androidx.window:window:1.0.0-beta04] C:\Users\shrey\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+83    </application>
+84
+85</manifest>
