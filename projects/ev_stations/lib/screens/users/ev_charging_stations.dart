@@ -47,16 +47,17 @@ class _ScannerState extends State<Scanner> {
                 ),
               ),
             ),
-            const SizedBox(height: 100,),
+            const SizedBox(
+              height: 100,
+            ),
             ElevatedButton(
-              child: CircleAvatar(
-                backgroundColor: Colors.transparent,
-                child: LottieBuilder.asset('assets/lottie/torch.json'),
-              ),
-              onPressed: (){
-                _turnOnFlash(context);
-              }
-            )
+                child: CircleAvatar(
+                  backgroundColor: Colors.transparent,
+                  child: LottieBuilder.asset('assets/lottie/torch.json'),
+                ),
+                onPressed: () {
+                  _turnOnFlash(context);
+                })
           ],
         ),
       ],
@@ -125,7 +126,7 @@ Future<void> _turnOffFlash(BuildContext context) async {
     _showErrorMes('Could not enable Flashlight', context);
   }
 }
+
 void _showErrorMes(String mes, BuildContext context) {
-  ScaffoldMessenger.of(context)
-      .showSnackBar(SnackBar(content: Text(mes)));
+  ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(mes)));
 }
