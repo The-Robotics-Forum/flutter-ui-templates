@@ -3,6 +3,8 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:qr_code_scanner/qr_code_scanner.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:lottie/lottie.dart';
+import 'package:torch_light/torch_light.dart';
 
 class Scanner extends StatefulWidget {
   const Scanner({Key? key}) : super(key: key);
@@ -23,9 +25,41 @@ class _ScannerState extends State<Scanner> {
 
   @override
   Widget build(BuildContext context) {
-    return QRView(
-      key: qrKey,
-      onQRViewCreated: _onQRViewCreated,
+    return Stack(
+      children: [
+        QRView(
+          key: qrKey,
+          onQRViewCreated: _onQRViewCreated,
+        ),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Center(
+              child: Container(
+                width: 300,
+                height: 300,
+                decoration: BoxDecoration(
+                  border: Border.all(
+                    color: Colors.red,
+                    width: 4,
+                  ),
+                  borderRadius: BorderRadius.circular(12),
+                ),
+              ),
+            ),
+            const SizedBox(height: 100,),
+            ElevatedButton(
+              child: CircleAvatar(
+                backgroundColor: Colors.transparent,
+                child: LottieBuilder.asset('assets/lottie/torch.json'),
+              ),
+              onPressed: (){
+                _turnOnFlash(context);
+              }
+            )
+          ],
+        ),
+      ],
     );
   }
 
@@ -74,4 +108,24 @@ Future<void> _launchInBrowser(Uri url) async {
   )) {
     throw 'Could not launch $url';
   }
+}
+
+Future<void> _turnOnFlash(BuildContext context) async {
+  try {
+    await TorchLight.enableTorch();
+  } on Exception catch (_) {
+    _showErrorMes('Could not enable Flashlight', context);
+  }
+}
+
+Future<void> _turnOffFlash(BuildContext context) async {
+  try {
+    await TorchLight.disableTorch();
+  } on Exception catch (_) {
+    _showErrorMes('Could not enable Flashlight', context);
+  }
+}
+void _showErrorMes(String mes, BuildContext context) {
+  ScaffoldMessenger.of(context)
+      .showSnackBar(SnackBar(content: Text(mes)));
 }
