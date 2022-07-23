@@ -101,7 +101,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         _value = value;
                       });
                     },
-                    fillColor: MaterialStateColor.resolveWith((states) => Colors.white),
+                    fillColor: MaterialStateColor.resolveWith((states) => Color(0xFF20BCDE)),
                   ),
                 ],
               ),
@@ -129,7 +129,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         _value = value;
                       });
                     },
-                    fillColor: MaterialStateColor.resolveWith((states) => Colors.white),
+                    fillColor: MaterialStateColor.resolveWith((states) => Color(0xFF20BCDE)),
 
                   ),
                 ],
