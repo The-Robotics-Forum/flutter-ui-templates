@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'charging.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key, required this.title}) : super(key: key);
@@ -17,7 +18,19 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: Container(),// This trailing comma makes auto-formatting nicer for build methods.
+      body: Container(
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              ElevatedButton(onPressed: (){
+                Navigator.push(context, MaterialPageRoute(builder: (context) => const ChargingScreen()));
+              }, child: const Text('Profile Card screen')),
+
+            ],
+          ),
+        ),
+      ),// This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
