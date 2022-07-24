@@ -1,4 +1,4 @@
-import 'package:ev_stations/screens/users/ev_charging_stations.dart';
+import 'package:ev_stations/screens/users/scan_qr_code.dart';
 import 'package:flutter/material.dart';
 import 'screens/users/dashboard.dart';
 
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Dashboard',),
+      home: const MyHomePage(title: 'Siddhant:)',),
     );
   }
 
