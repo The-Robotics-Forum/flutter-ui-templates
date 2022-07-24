@@ -87,16 +87,13 @@ class _MyHomePageState extends State<MyHomePage> {
       default:
 
       // ignore: sized_box_for_whitespace
-        return Container(
-          // ignore: prefer_const_constructors
-          child: Transform.rotate(
-            angle: 90 * math.pi / 180,
-            child: (const Icon(
-              Icons.battery_alert,
-              size: 75,
-              color: Colors.red,
-            )),
-          ),
+        return Transform.rotate(
+          angle: 90 * math.pi / 180,
+          child: (const Icon(
+            Icons.battery_alert,
+            size: 75,
+            color: Colors.red,
+          )),
         );
     }
   }
