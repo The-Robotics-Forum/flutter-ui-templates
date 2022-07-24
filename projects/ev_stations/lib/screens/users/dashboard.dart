@@ -1,3 +1,4 @@
+import 'package:ev_stations/screens/users/ChargingProgress.dart';
 import 'package:flutter/material.dart';
 import 'charging.dart';
 
@@ -25,8 +26,10 @@ class _MyHomePageState extends State<MyHomePage> {
             children: [
               ElevatedButton(onPressed: (){
                 Navigator.push(context, MaterialPageRoute(builder: (context) => const ChargingScreen()));
-              }, child: const Text('Profile Card screen')),
-
+              }, child: const Text('Charging Station Screen')),
+              ElevatedButton(onPressed: (){
+                Navigator.push(context, MaterialPageRoute(builder: (context) => const ChargingProgress()));
+              }, child: const Text('Charging Progress')),
             ],
           ),
         ),
