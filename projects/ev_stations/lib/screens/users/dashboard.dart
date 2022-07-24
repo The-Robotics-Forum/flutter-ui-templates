@@ -71,17 +71,14 @@ class _MyHomePageState extends State<MyHomePage> {
       case BatteryState.charging:
 
       // ignore: sized_box_for_whitespace
-        return Container(
-          // ignore: prefer_const_constructors
-          child: Transform.rotate(
-            angle: 90 * math.pi / 180,
-            child: (
-                const Icon(
-              Icons.battery_charging_full,
-              color: Colors.blue,
-                  size: 75,
-            )),
-          ),
+        return Transform.rotate(
+          angle: 90 * math.pi / 180,
+          child: (
+              const Icon(
+            Icons.battery_charging_full,
+            color: Colors.blue,
+                size: 75,
+          )),
         );
 
     // third case is when the battery is
