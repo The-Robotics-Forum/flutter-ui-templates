@@ -371,4 +371,3 @@ class _ChargingScreenState extends State<ChargingScreen> {
     );
   }
 }
-

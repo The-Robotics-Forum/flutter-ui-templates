@@ -1,3 +1,4 @@
+import 'package:ev_stations/screens/users/scan_qr_code.dart';
 import 'package:ev_stations/screens/login.dart';
 import 'package:ev_stations/screens/users/ev_charging_stations.dart';
 import 'package:flutter/material.dart';
