@@ -1,3 +1,5 @@
+import 'package:ev_stations/screens/splash.dart';
+import 'package:ev_stations/screens/users/connection.dart';
 import 'package:ev_stations/screens/users/scan_qr_code.dart';
 import 'package:ev_stations/screens/login.dart';
 import 'package:ev_stations/screens/users/ev_charging_stations.dart';
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: LoginScreen(),
+      home: const Splash(),
     );
   }
 
