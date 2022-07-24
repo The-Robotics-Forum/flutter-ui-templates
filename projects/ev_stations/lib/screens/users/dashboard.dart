@@ -57,16 +57,13 @@ class _MyHomePageState extends State<MyHomePage> {
     // then it will show green in color
       case BatteryState.full:
       // ignore: sized_box_for_whitespace
-        return Container(
-          // ignore: prefer_const_constructors
-          child: Transform.rotate(
-            angle: 90 * math.pi / 180,
-            child: (const Icon(
-              Icons.battery_full,
-              color: Colors.green,
-              size: 75,
-            )),
-          ),
+        return Transform.rotate(
+          angle: 90 * math.pi / 180,
+          child: (const Icon(
+            Icons.battery_full,
+            color: Colors.green,
+            size: 75,
+          )),
         );
 
     // Second case is when battery is charging
