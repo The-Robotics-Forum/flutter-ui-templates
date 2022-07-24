@@ -12,6 +12,7 @@ class _ChargingScreenState extends State<ChargingScreen> {
   List itemList = ['min', 'hour'];
   // ignore: non_constant_identifier_names
   String? Selecteditem = 'min';
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
