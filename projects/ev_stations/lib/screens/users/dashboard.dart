@@ -183,7 +183,7 @@ class _MyHomePageState extends State<MyHomePage> {
             const SizedBox(
               height: 10,
             ),
-            Text('Tata Nexon EV',style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.white),),
+            const Text('Tata Nexon EV',style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.white),),
             const SizedBox(
               height: 30,
             ),
