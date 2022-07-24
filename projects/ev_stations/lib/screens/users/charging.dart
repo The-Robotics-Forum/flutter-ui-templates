@@ -50,7 +50,10 @@ class _ChargingScreenState extends State<ChargingScreen> {
             const Center(
               child: Text(
                 'EV Charging Station',
-                style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),
+                style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 30,
+                    fontWeight: FontWeight.bold),
               ),
             ),
             const SizedBox(
@@ -77,7 +80,9 @@ class _ChargingScreenState extends State<ChargingScreen> {
               child: Container(
                 height: 40,
                 width: 250,
-                decoration: BoxDecoration(border: Border.all(color: const Color(0xFF20BCDE)), borderRadius: BorderRadius.circular(22)),
+                decoration: BoxDecoration(
+                    border: Border.all(color: const Color(0xFF20BCDE)),
+                    borderRadius: BorderRadius.circular(22)),
                 child: const Center(
                   child: Text(
                     'Charger Type | CCS4',
@@ -95,14 +100,20 @@ class _ChargingScreenState extends State<ChargingScreen> {
                 children: const [
                   Text(
                     '\u{20B9}${'99/Kwh'}',
-                    style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 30,
+                        fontWeight: FontWeight.bold),
                   ),
                   SizedBox(
                     width: 50,
                   ),
                   Text(
                     '3 XPR/kwh',
-                    style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 30,
+                        fontWeight: FontWeight.bold),
                   ),
                 ],
               ),
@@ -134,7 +145,10 @@ class _ChargingScreenState extends State<ChargingScreen> {
                               size: 30,
                             ),
                           ),
-                          TextSpan(text: '  Wallet', style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold)),
+                          TextSpan(
+                              text: '  Wallet',
+                              style: TextStyle(
+                                  fontSize: 25, fontWeight: FontWeight.bold)),
                         ]),
                       ),
                     ),
@@ -144,7 +158,10 @@ class _ChargingScreenState extends State<ChargingScreen> {
                     const Center(
                       child: Text(
                         '\u{20B9}${'1023.23  |  36 XRP'}',
-                        style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 18,
+                            fontWeight: FontWeight.bold),
                       ),
                     ),
                   ],
@@ -159,7 +176,10 @@ class _ChargingScreenState extends State<ChargingScreen> {
               alignment: Alignment.topLeft,
               child: const Text(
                 'I want to charge on the basis',
-                style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),
+                style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold),
               ),
             ),
             DefaultTabController(
@@ -220,21 +240,35 @@ class _ChargingScreenState extends State<ChargingScreen> {
                     width: double.infinity,
                     child: TabBarView(
                       children: [
-                        const Center(child: Text('ChargerTab',style: TextStyle(color: Colors.white),)),
-                        const Center(child: Text('Amount Tab',style: TextStyle(color: Colors.white),)),
+                        const Center(
+                            child: Text(
+                          'ChargerTab',
+                          style: TextStyle(color: Colors.white),
+                        )),
+                        const Center(
+                            child: Text(
+                          'Amount Tab',
+                          style: TextStyle(color: Colors.white),
+                        )),
                         Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-
                             Row(
                               mainAxisAlignment: MainAxisAlignment.center,
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: [
                                 DropdownButton<String>(
                                   dropdownColor: const Color(0xFF727171),
-
                                   value: Selecteditem,
-                                  items: itemList.map((itemList)=>DropdownMenuItem<String>(value:itemList,child: Text(itemList,style:const TextStyle(color:Colors.white,)))).toList(),
+                                  items: itemList
+                                      .map((itemList) =>
+                                          DropdownMenuItem<String>(
+                                              value: itemList,
+                                              child: Text(itemList,
+                                                  style: const TextStyle(
+                                                    color: Colors.white,
+                                                  ))))
+                                      .toList(),
                                   onChanged: (itemList) => setState(() {
                                     Selecteditem = itemList;
                                   }),
@@ -245,13 +279,16 @@ class _ChargingScreenState extends State<ChargingScreen> {
                                   height: 32,
                                   child: const TextField(
                                     decoration: InputDecoration(
-                                        enabledBorder: UnderlineInputBorder(borderSide: BorderSide(color: Color(0xFF727171)))
-                                    ),
+                                        enabledBorder: UnderlineInputBorder(
+                                            borderSide: BorderSide(
+                                                color: Color(0xFF727171)))),
                                   ),
                                 )
                               ],
                             ),
-                            const SizedBox(height: 20,),
+                            const SizedBox(
+                              height: 20,
+                            ),
                             Row(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
@@ -267,11 +304,16 @@ class _ChargingScreenState extends State<ChargingScreen> {
                                         color: Colors.black54.withOpacity(0.4),
                                         spreadRadius: 1,
                                         blurRadius: 4,
-                                        offset: const Offset(2.0, 5.0), // changes position of shadow
+                                        offset: const Offset(2.0,
+                                            5.0), // changes position of shadow
                                       ),
                                     ],
                                   ),
-                                  child: const Center(child: Text('15 min', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold))),
+                                  child: const Center(
+                                      child: Text('15 min',
+                                          style: TextStyle(
+                                              color: Colors.white,
+                                              fontWeight: FontWeight.bold))),
                                 ),
                                 const SizedBox(
                                   width: 25,
@@ -288,11 +330,16 @@ class _ChargingScreenState extends State<ChargingScreen> {
                                         color: Colors.black54.withOpacity(0.4),
                                         spreadRadius: 1,
                                         blurRadius: 4,
-                                        offset: const Offset(2.0, 5.0), // changes position of shadow
+                                        offset: const Offset(2.0,
+                                            5.0), // changes position of shadow
                                       ),
                                     ],
                                   ),
-                                  child: const Center(child: Text('15 min', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold))),
+                                  child: const Center(
+                                      child: Text('15 min',
+                                          style: TextStyle(
+                                              color: Colors.white,
+                                              fontWeight: FontWeight.bold))),
                                 ),
                                 const SizedBox(
                                   width: 25,
@@ -309,11 +356,16 @@ class _ChargingScreenState extends State<ChargingScreen> {
                                         color: Colors.black54.withOpacity(0.4),
                                         spreadRadius: 1,
                                         blurRadius: 4,
-                                        offset: const Offset(2.0, 5.0), // changes position of shadow
+                                        offset: const Offset(2.0,
+                                            5.0), // changes position of shadow
                                       ),
                                     ],
                                   ),
-                                  child: const Center(child: Text('15 min', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold))),
+                                  child: const Center(
+                                      child: Text('15 min',
+                                          style: TextStyle(
+                                              color: Colors.white,
+                                              fontWeight: FontWeight.bold))),
                                 ),
                                 const SizedBox(
                                   width: 25,
@@ -330,11 +382,16 @@ class _ChargingScreenState extends State<ChargingScreen> {
                                         color: Colors.black54.withOpacity(0.4),
                                         spreadRadius: 1,
                                         blurRadius: 4,
-                                        offset: const Offset(2.0, 5.0), // changes position of shadow
+                                        offset: const Offset(2.0,
+                                            5.0), // changes position of shadow
                                       ),
                                     ],
                                   ),
-                                  child: const Center(child: Text('15 min', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold))),
+                                  child: const Center(
+                                      child: Text('15 min',
+                                          style: TextStyle(
+                                              color: Colors.white,
+                                              fontWeight: FontWeight.bold))),
                                 ),
                               ],
                             )
@@ -351,7 +408,9 @@ class _ChargingScreenState extends State<ChargingScreen> {
                 margin: const EdgeInsets.only(top: 35, left: 10, right: 10),
                 height: 50,
                 width: 380,
-                decoration: BoxDecoration(color: const Color(0xFF20BCDE), borderRadius: BorderRadius.circular(10)),
+                decoration: BoxDecoration(
+                    color: const Color(0xFF20BCDE),
+                    borderRadius: BorderRadius.circular(10)),
                 child: const Center(
                   child: Text('Estimate',
                       style: TextStyle(
