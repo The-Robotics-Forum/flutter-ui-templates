@@ -22,6 +22,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.8.2"
+  battery_indicator:
+    dependency: "direct main"
+    description:
+      name: battery_indicator
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.1.1"
   battery_plus:
     dependency: "direct main"
     description:
