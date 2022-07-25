@@ -11,7 +11,7 @@ class StationDashboard extends StatefulWidget {
 
 class _StationDashboardState extends State<StationDashboard> {
 
-  var _colorful = true;
+  final _colorful = true;
   var _showPercentSlide = true;
   var _showPercentNum = false;
   var _size = 40.0;
