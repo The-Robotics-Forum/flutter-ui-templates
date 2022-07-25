@@ -12,7 +12,7 @@ class StationDashboard extends StatefulWidget {
 class _StationDashboardState extends State<StationDashboard> {
 
   final _colorful = true;
-  var _showPercentSlide = true;
+  final _showPercentSlide = true;
   var _showPercentNum = false;
   var _size = 40.0;
   var _ratio = 3.0;
