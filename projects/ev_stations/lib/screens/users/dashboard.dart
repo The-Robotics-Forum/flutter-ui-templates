@@ -1,5 +1,7 @@
+import 'dart:async';
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
+import 'package:battery_plus/battery_plus.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key, required this.title}) : super(key: key);
@@ -13,7 +15,89 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
 
 
-  int percentage = 65;
+  var battery = Battery();
+  int percentage = 0;
+  late Timer timer;
+
+  // created a Batterystate of enum type
+  BatteryState batteryState = BatteryState.full;
+  late StreamSubscription streamSubscription;
+
+  @override
+  void initState() {
+    super.initState();
+    // calling the method to get battery state
+    getBatteryState();
+
+    // calling the method to get battery percentage
+    Timer.periodic(const Duration(seconds: 5), (timer) {
+      getBatteryPerentage();
+
+    });
+  }
+
+  void getBatteryPerentage() async {
+    final level = await battery.batteryLevel;
+    percentage = level;
+
+    setState(() {});
+  }
+
+  // method to know the state of the battery
+  void getBatteryState() {
+    streamSubscription = battery.onBatteryStateChanged.listen((state) {
+      batteryState = state;
+
+      setState(() {});
+    });
+  }
+
+  Widget BatteryBuild(BatteryState state) {
+    switch (state) {
+    // first case is for battery full state
+    // then it will show green in color
+      case BatteryState.full:
+      // ignore: sized_box_for_whitespace
+        return Transform.rotate(
+          angle: 90 * math.pi / 180,
+          child: (const Icon(
+            Icons.battery_full,
+            color: Colors.green,
+            size: 75,
+          )),
+        );
+
+    // Second case is when battery is charging
+    // then it will show blue in color
+      case BatteryState.charging:
+
+      // ignore: sized_box_for_whitespace
+        return Transform.rotate(
+          angle: 90 * math.pi / 180,
+          child: (
+              const Icon(
+                Icons.battery_charging_full,
+                color: Colors.blue,
+                size: 75,
+              )),
+        );
+
+    // third case is when the battery is
+    // discharged then it will show red in color
+      case BatteryState.discharging:
+      default:
+
+      // ignore: sized_box_for_whitespace
+        return Transform.rotate(
+          angle: 90 * math.pi / 180,
+          child: (const Icon(
+            Icons.battery_alert,
+            size: 75,
+            color: Colors.red,
+          )),
+        );
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
