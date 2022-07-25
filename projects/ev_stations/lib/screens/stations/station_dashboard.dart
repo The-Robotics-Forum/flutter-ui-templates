@@ -18,7 +18,7 @@ class _StationDashboardState extends State<StationDashboard> {
   final _ratio = 3.0;
   int batteryLevel=75;
 
-  Color _color = Colors.blue;
+  final Color _color = Colors.blue;
 
   @override
   Widget build(BuildContext context) {
