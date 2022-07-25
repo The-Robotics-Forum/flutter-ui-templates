@@ -5,6 +5,9 @@ import 'package:ev_stations/screens/users/scan_qr_code.dart';
 import 'package:flutter/material.dart';
 import 'package:battery_plus/battery_plus.dart';
 
+import 'charging.dart';
+import 'confirming.dart';
+
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key, required this.title}) : super(key: key);
 
@@ -184,7 +187,12 @@ class _MyHomePageState extends State<MyHomePage> {
             const SizedBox(
               height: 30,
             ),
-            Image.asset('assets/car1.png'),
+            GestureDetector(
+                onTap: () {
+                  Navigator.of(context).push(MaterialPageRoute(
+                      builder: (context) => const ConfirmingScreen()));
+                },
+                child: Image.asset('assets/car1.png')),
             const SizedBox(
               height: 10,
             ),
@@ -245,7 +253,10 @@ class _MyHomePageState extends State<MyHomePage> {
                       borderRadius: BorderRadius.circular(10),
                       color: Colors.white),
                   child: GestureDetector(
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.of(context).push(MaterialPageRoute(
+                          builder: (context) => const ChargingScreen()));
+                    },
                     child: Column(
                       children: [
                         Padding(

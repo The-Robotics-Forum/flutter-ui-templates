@@ -1,6 +1,8 @@
 // confirming
 import 'package:flutter/material.dart';
 import 'package:slide_to_act/slide_to_act.dart';
+
+import 'ChargingProgress.dart';
 class ConfirmingScreen extends StatefulWidget {
   const ConfirmingScreen({Key? key}) : super(key: key);
 
@@ -111,7 +113,10 @@ class _ConfirmingScreenState extends State<ConfirmingScreen> {
                 alignment: Alignment.center,
                 sliderButtonIcon: const Icon(Icons.arrow_forward_ios,color: Color(0xFF20BCDE),),
                 outerColor: const Color(0xFF20BCDE),
-                onSubmit: () {}, 
+                onSubmit: () {
+                  Navigator.of(context).push(MaterialPageRoute(
+                      builder: (context) => const ChargingProgress()));
+                },
                 sliderButtonIconPadding: 8,
 
               ),
