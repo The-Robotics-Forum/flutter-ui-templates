@@ -10,13 +10,12 @@ class StationDashboard extends StatefulWidget {
 }
 
 class _StationDashboardState extends State<StationDashboard> {
-
   final _colorful = true;
   final _showPercentSlide = true;
   final _showPercentNum = false;
   final _size = 40.0;
   final _ratio = 3.0;
-  int batteryLevel=75;
+  int batteryLevel = 75;
 
   final Color _color = Colors.blue;
 
@@ -111,7 +110,13 @@ class _StationDashboardState extends State<StationDashboard> {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text('$batteryLevel %',style: const TextStyle(color: Colors.white,fontSize: 20,fontWeight: FontWeight.bold),),
+              Text(
+                '$batteryLevel %',
+                style: const TextStyle(
+                    color: Colors.white,
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold),
+              ),
               const SizedBox(
                 width: 10,
               ),
@@ -135,8 +140,7 @@ class _StationDashboardState extends State<StationDashboard> {
             height: 50,
             width: 300,
             decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(10)),
+                color: Colors.white, borderRadius: BorderRadius.circular(10)),
             child: const Center(
               child: Text('Statistics',
                   style: TextStyle(
@@ -153,8 +157,7 @@ class _StationDashboardState extends State<StationDashboard> {
             height: 50,
             width: 300,
             decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(10)),
+                color: Colors.white, borderRadius: BorderRadius.circular(10)),
             child: const Center(
               child: Text('Prediction',
                   style: TextStyle(
@@ -171,16 +174,15 @@ class _StationDashboardState extends State<StationDashboard> {
             height: 50,
             width: 300,
             decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(10)),
-              child: const Center(
-                child: Text('Request Power',
+                color: Colors.white, borderRadius: BorderRadius.circular(10)),
+            child: const Center(
+              child: Text('Request Power',
                   style: TextStyle(
                     fontSize: 20,
                     letterSpacing: 5.0,
                     fontWeight: FontWeight.bold,
                   )),
-              ),
+            ),
           ),
         ],
       ),
