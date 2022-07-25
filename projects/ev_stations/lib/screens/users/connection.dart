@@ -12,7 +12,7 @@ class Connection extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Image.asset('assets/charging.jpeg'),
-          Text('Establishing Contact with Car',style: TextStyle(color: Colors.white,fontSize: 30, fontWeight: FontWeight.bold),)
+          const Text('Establishing Contact with Car',style: TextStyle(color: Colors.white,fontSize: 20, fontWeight: FontWeight.bold),)
         ],
       ),
     );
