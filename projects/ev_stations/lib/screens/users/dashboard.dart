@@ -211,14 +211,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Transform.rotate(
-                            angle: 90 * math.pi / 180,
-                            child: (const Icon(
-                              Icons.battery_charging_full,
-                              color: Colors.green,
-                              size: 75,
-                            )),
-                          ),
+                          BatteryBuild(batteryState),
                           Text('$percentage Left')
                         ],
                       ),
