@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'dart:math' as math;
+import 'package:ev_stations/screens/users/scan_qr_code.dart';
 import 'package:flutter/material.dart';
 import 'package:battery_plus/battery_plus.dart';
 
@@ -265,14 +266,17 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10),
                         color: Colors.white
                     ),
-                    child: Column(
-                      children: const [
-                        Padding(
-                          padding: EdgeInsets.all(4.0),
-                          child: Icon(Icons.qr_code_scanner,size: 100,),
-                        ),
-                        Text('Scan QR Code')
-                      ],
+                    child: GestureDetector(
+                      onTap: (){Navigator.of(context).push(MaterialPageRoute(builder: (context) => const Scanner()));},
+                      child: Column(
+                        children: const [
+                          Padding(
+                            padding: EdgeInsets.all(4.0),
+                            child: Icon(Icons.qr_code_scanner,size: 100,),
+                          ),
+                          Text('Scan QR Code')
+                        ],
+                      ),
                     ),
                   ),
                 ),
