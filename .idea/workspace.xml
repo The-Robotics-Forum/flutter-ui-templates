@@ -19,9 +19,6 @@
     <select />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="90e2ba15-f2ee-43db-9264-26b0332bf788" name="Default Changelist" comment="" />
-=======
     <list default="true" id="90e2ba15-f2ee-43db-9264-26b0332bf788" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/projects/ev_stations/lib/screens/users/ChargingProgress.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
@@ -30,7 +27,6 @@
       <change beforePath="$PROJECT_DIR$/projects/ev_stations/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ev_stations/pubspec.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/ev_stations/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ev_stations/windows/flutter/generated_plugins.cmake" afterDir="false" />
     </list>
->>>>>>> 61d2fe6716ecacbca65ef94f3e8799e26803a380
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +108,6 @@
     <state x="390" y="168" key="FileChooserDialogImpl" timestamp="1658652360411">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-<<<<<<< HEAD
     <state x="390" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1658572648172" />
     <state width="1160" height="207" key="GridCell.Tab.0.bottom" timestamp="1658657716408">
       <screen x="0" y="0" width="1536" height="824" />
@@ -130,7 +125,6 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1160" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1658657716408" />
-=======
     <state x="390" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1658652360411" />
     <state width="1160" height="207" key="GridCell.Tab.0.bottom" timestamp="1658654536087">
       <screen x="0" y="0" width="1536" height="824" />
@@ -148,7 +142,6 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1160" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1658654536087" />
->>>>>>> 61d2fe6716ecacbca65ef94f3e8799e26803a380
     <state x="119" y="0" key="SettingsEditor" timestamp="1658563372516">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
