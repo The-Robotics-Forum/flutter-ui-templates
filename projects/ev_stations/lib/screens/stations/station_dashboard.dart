@@ -14,7 +14,7 @@ class _StationDashboardState extends State<StationDashboard> {
   final _colorful = true;
   final _showPercentSlide = true;
   final _showPercentNum = false;
-  var _size = 40.0;
+  final _size = 40.0;
   var _ratio = 3.0;
   int batteryLevel=75;
 
