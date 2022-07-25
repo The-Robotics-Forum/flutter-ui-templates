@@ -241,14 +241,17 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10),
                         color: Colors.white
                     ),
-                    child: Column(
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.all(4.0),
-                          child: Image.asset('assets/car2.jpeg',height: 100,),
-                        ),
-                        const Text('Find Charging Station')
-                      ],
+                    child: GestureDetector(
+                      onTap: (){},
+                      child: Column(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.all(4.0),
+                            child: Image.asset('assets/car2.jpeg',height: 100,),
+                          ),
+                          const Text('Find Charging Station')
+                        ],
+                      ),
                     ),
                   ),
                 ),
@@ -289,14 +292,17 @@ class _MyHomePageState extends State<MyHomePage> {
                         borderRadius: BorderRadius.circular(10),
                         color: Colors.white
                     ),
-                    child: Column(
-                      children: const [
-                        Padding(
-                          padding: EdgeInsets.all(4.0),
-                          child: Icon(Icons.account_balance_wallet,size: 100,),
-                        ),
-                        Text('Add Money')
-                      ],
+                    child: GestureDetector(
+                      onTap: (){},
+                      child: Column(
+                        children: const [
+                          Padding(
+                            padding: EdgeInsets.all(4.0),
+                            child: Icon(Icons.account_balance_wallet,size: 100,),
+                          ),
+                          Text('Add Money')
+                        ],
+                      ),
                     ),
                   ),
                 ),
