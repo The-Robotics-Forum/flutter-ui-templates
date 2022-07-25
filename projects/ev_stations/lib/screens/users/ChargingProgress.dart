@@ -165,7 +165,9 @@ class _ChargingProgressState extends State<ChargingProgress> {
           const SizedBox(height: 45,),
           Center(
             child: GestureDetector(
-              onTap: (){},
+              onTap: (){
+
+              },
               child: Container(
                 decoration: BoxDecoration(
                   color: const Color(0XFFCD4744),
