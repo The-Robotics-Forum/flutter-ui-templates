@@ -134,6 +134,16 @@ class _StationDashboardState extends State<StationDashboard> {
             ],
           ),
           const SizedBox(
+            height: 10,
+          ),
+          Text(
+            '${batteryLevel*4} Kwh Power Remaining ',
+            style: const TextStyle(
+                color: Colors.white,
+                fontSize: 20,
+                fontWeight: FontWeight.bold),
+          ),
+          const SizedBox(
             height: 30,
           ),
           Container(
