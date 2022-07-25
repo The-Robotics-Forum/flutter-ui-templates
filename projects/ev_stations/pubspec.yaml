@@ -40,6 +40,8 @@ dependencies:
   lottie: ^1.3.0
   torch_light: ^0.4.0
   battery_plus: ^2.1.4
+  syncfusion_flutter_gauges: ^20.2.39
+  slide_to_act: ^2.0.1
 
 dev_dependencies:
   flutter_test:
