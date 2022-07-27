@@ -10,8 +10,20 @@ class Statistics extends StatefulWidget {
 }
 
 class _StatisticsState extends State<Statistics> {
-
-  List itemList = ['Jan 2022', 'Feb 2022','Mar 2022','Apr 2022','May 2022','Jun 2022','Jul 2022','Aug 2022','Sept 2022','Oct 2022','Nov 2022','Dec 2022',];
+  List itemList = [
+    'Jan 2022',
+    'Feb 2022',
+    'Mar 2022',
+    'Apr 2022',
+    'May 2022',
+    'Jun 2022',
+    'Jul 2022',
+    'Aug 2022',
+    'Sept 2022',
+    'Oct 2022',
+    'Nov 2022',
+    'Dec 2022',
+  ];
   // ignore: non_constant_identifier_names
   String? Selecteditem = 'Feb 2022';
 
@@ -58,33 +70,37 @@ class _StatisticsState extends State<Statistics> {
       appBar: AppBar(
           backgroundColor: const Color(0xFF454545),
           title: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: const [
-        Text('Statistics',
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 25,
-              fontWeight: FontWeight.bold,
-            )),
-        Text('Visualization of all collected Data',
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 13,
-            ))
-      ])),
+                Text('Statistics',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 25,
+                      fontWeight: FontWeight.bold,
+                    )),
+                Text('Visualization of all collected Data',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 13,
+                    ))
+              ])),
       backgroundColor: const Color(0xFF454545),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          const SizedBox(height: 10,),
+          const SizedBox(
+            height: 10,
+          ),
           const Text('Types of EV\'s ',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 25,
                 fontWeight: FontWeight.bold,
               )),
-          const SizedBox(height: 10,),
+          const SizedBox(
+            height: 10,
+          ),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: DefaultTabController(
@@ -125,13 +141,14 @@ class _StatisticsState extends State<Statistics> {
                       ),
                     ),
                   ),
-                  const SizedBox(height: 20,),
+                  const SizedBox(
+                    height: 20,
+                  ),
                   DropdownButton<String>(
                     dropdownColor: const Color(0xFF727171),
                     value: Selecteditem,
                     items: itemList
-                        .map((itemList) =>
-                        DropdownMenuItem<String>(
+                        .map((itemList) => DropdownMenuItem<String>(
                             value: itemList,
                             child: Text(itemList,
                                 style: const TextStyle(
@@ -143,7 +160,7 @@ class _StatisticsState extends State<Statistics> {
                     }),
                   ),
                   SizedBox(
-                    height: (MediaQuery.of(context).size.height)/2,
+                    height: (MediaQuery.of(context).size.height) / 2,
                     width: double.infinity,
                     child: TabBarView(
                       children: [
@@ -151,32 +168,35 @@ class _StatisticsState extends State<Statistics> {
                             centerSpaceRadius: 10,
                             borderData: FlBorderData(show: false),
                             sections: [
-                              PieChartSectionData(value: 10, color: Colors.purple, radius: 100),
-                              PieChartSectionData(value: 20, color: Colors.amber, radius: 110),
-                              PieChartSectionData(value: 30, color: Colors.green, radius: 120)
-                            ]
-                        )
-                        ),
-                         PieChart(PieChartData(
-                             centerSpaceRadius: 10,
-                             borderData: FlBorderData(show: false),
-                             sections: [
-                               PieChartSectionData(value: 10, color: Colors.purple, radius: 100),
-                               PieChartSectionData(value: 20, color: Colors.amber, radius: 110),
-                               PieChartSectionData(value: 30, color: Colors.green, radius: 120)
-                             ]
-                         )
-                         ),
+                              PieChartSectionData(
+                                  value: 10, color: Colors.purple, radius: 100),
+                              PieChartSectionData(
+                                  value: 20, color: Colors.amber, radius: 110),
+                              PieChartSectionData(
+                                  value: 30, color: Colors.green, radius: 120)
+                            ])),
                         PieChart(PieChartData(
                             centerSpaceRadius: 10,
                             borderData: FlBorderData(show: false),
                             sections: [
-                              PieChartSectionData(value: 10, color: Colors.purple, radius: 100),
-                              PieChartSectionData(value: 20, color: Colors.amber, radius: 110),
-                              PieChartSectionData(value: 30, color: Colors.green, radius: 120)
-                            ]
-                        )
-                        ),
+                              PieChartSectionData(
+                                  value: 10, color: Colors.purple, radius: 100),
+                              PieChartSectionData(
+                                  value: 20, color: Colors.amber, radius: 110),
+                              PieChartSectionData(
+                                  value: 30, color: Colors.green, radius: 120)
+                            ])),
+                        PieChart(PieChartData(
+                            centerSpaceRadius: 10,
+                            borderData: FlBorderData(show: false),
+                            sections: [
+                              PieChartSectionData(
+                                  value: 10, color: Colors.purple, radius: 100),
+                              PieChartSectionData(
+                                  value: 20, color: Colors.amber, radius: 110),
+                              PieChartSectionData(
+                                  value: 30, color: Colors.green, radius: 120)
+                            ])),
                       ],
                     ),
                   )
