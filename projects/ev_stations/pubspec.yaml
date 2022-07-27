@@ -42,6 +42,7 @@ dependencies:
   battery_plus: ^2.1.4
   syncfusion_flutter_gauges: ^20.2.39
   slide_to_act: ^2.0.1
+  battery_indicator: ^0.1.1
   syncfusion_flutter_charts: ^20.2.40
 
 dev_dependencies:
