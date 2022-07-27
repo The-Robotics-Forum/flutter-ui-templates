@@ -15,7 +15,7 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF7D7D7D),
+      backgroundColor: const Color(0xFF454545),
       appBar: AppBar(
         leading: InkWell(onTap: (){},child:  Icon(Icons.arrow_back)),
         backgroundColor: Colors.transparent,
@@ -45,7 +45,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   filled: true,
                   contentPadding: const EdgeInsets.only(top: 5, left: 35),
                   hintText: 'Enter the Phone No.',
-                  hintStyle: const TextStyle(color: Colors.grey),
+                  hintStyle:  TextStyle(color: Colors.grey[700]),
                 ),
               ),
             ),
@@ -63,7 +63,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   filled: true,
                   contentPadding: const EdgeInsets.only(top: 5, left: 35),
                   hintText: 'Enter the Password',
-                  hintStyle: const TextStyle(color: Colors.grey),
+                  hintStyle:  TextStyle(color: Colors.grey[700]),
                 ),
               ),
             ),
@@ -90,8 +90,8 @@ class _LoginScreenState extends State<LoginScreen> {
                         color: Colors.white,
                         fontSize: 20,
                       )),
-                  const SizedBox(
-                    width: 190,
+                   SizedBox(
+                    width: MediaQuery.of(context).size.width * 0.465,
                   ),
                   Radio(
                     value: 0,
@@ -118,8 +118,8 @@ class _LoginScreenState extends State<LoginScreen> {
                         color: Colors.white,
                         fontSize: 20,
                       )),
-                  const SizedBox(
-                    width: 167,
+                   SizedBox(
+                    width: MediaQuery.of(context).size.width * 0.41,
                   ),
                   Radio(
                     value: 1,
