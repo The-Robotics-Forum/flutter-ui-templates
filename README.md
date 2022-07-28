@@ -44,14 +44,15 @@ Feel free to get in touch with us and join our [discussion](https://github.com/T
 <tr>
 <td align="center"><a href="https://github.com/Pavan49719"><img src="https://avatars.githubusercontent.com/u/90468365?v=4" width=150px height=150px /></a></br> <h4  style="color:blue">Pavan Bhadane</h4><br>
 <a href="https://www.linkedin.com/in/pavan-bhadane-033b26205/"><img src="https://t0.gstatic.com/images?q=tbn:ANd9GcRMCA3j2A8hfLl9p5UAU5nd9lvqLlNZvqoU4xOsZ192uH4IYS6X" width="32px" height="32px"></a>
-<a href="https://github.com/Pavan49719"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="32px" height="32px"></a></td>
+<a href="https://github.com/Pavan49719"><img src="https://user-images.githubusercontent.com/85052056/181615792-498908b8-4a88-4854-8a24-07d803e68891.png" width="32px" height="32px"></a></td>
 
 <td align="center"><a href="https://github.com/SiddhantPawar03"><img src="https://avatars.githubusercontent.com/u/85052056?v=4" width=150px height=150px /></a></br> <h4  style="color:blue">Siddhant Pawar</h4><br>
 <a href=" https://www.linkedin.com/in/siddhant-pawar-398a05201/"><img src="https://t0.gstatic.com/images?q=tbn:ANd9GcRMCA3j2A8hfLl9p5UAU5nd9lvqLlNZvqoU4xOsZ192uH4IYS6X" width="32px" height="32px"></a>
-<a href="https://github.com/SiddhantPawar03"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="32px" height="32px"></a></td>
+<a href="https://github.com/SiddhantPawar03"><img src="https://user-images.githubusercontent.com/85052056/181615792-498908b8-4a88-4854-8a24-07d803e68891.png" width="32px" height="32px"></a></td>
 </tr>
 </table>
- 
+
+
  
 # Contributing Guidelines 📋
 [Click here](CONTRIBUTING.md)
