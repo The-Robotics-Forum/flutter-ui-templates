@@ -39,6 +39,13 @@ Feel free to get in touch with us and join our [discussion](https://github.com/T
 # Project Maintainers 😃
 
  
+<table align="center">
+<tr>
+<td align="center"><a href="https://github.com/Pavan49719"><img src="https://avatars.githubusercontent.com/u/94545831?v=4" width=150px height=150px /></a></br> <h4  style="color:blue">Pavan Bhadane</h4><br>
+<a href="https://www.linkedin.com/in/siddhant-pawar-398a05201/"><img src="https://t0.gstatic.com/images?q=tbn:ANd9GcRMCA3j2A8hfLl9p5UAU5nd9lvqLlNZvqoU4xOsZ192uH4IYS6X" width="32px" height="32px"></a></td>
+</tr>
+</table>
+ 
 # Contributing Guidelines 📋
 [Click here](CONTRIBUTING.md)
 
