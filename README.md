@@ -30,12 +30,13 @@ Main aim of this repository is to make things faster and convenient for all the 
 # Objectives💡
 
   <div align="center">
-    <ul>
+    <ul margin="0 auto">
       <li>Creating end-to-end mobile app templates.</li>
       <li>Refinement of pre-existing UI.</li>
       <li>Work on interactions and effects/animations.</li>
     </ul>
   </div>
+  
 # Contact Us ✉️
 Feel free to get in touch with us and join our [discussion](https://github.com/The-Robotics-Forum/flutter-ui-templates/discussions) for updates.
 
