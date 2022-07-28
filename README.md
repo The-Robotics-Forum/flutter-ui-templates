@@ -2,6 +2,9 @@
 
 # Flutter UI Templates
 
+## Welcome Contributors 👋
+The Robotics Forum always encourages new ideas.
+  
 <p>
 
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
@@ -20,9 +23,7 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/The-Robotics-Forum/flutter-ui-templates)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/The-Robotics-Forum/flutter-ui-templates)
  </p>
- 
-# Welcome Contributors 👋
-The Robotics Forum always encourages new ideas.
+   
 </div>
 
 # Aim 🎯
@@ -30,16 +31,15 @@ Main aim of this repository is to make things faster and convenient for all the 
 
 # Objectives💡
 
--Creating end-to-end mobile app templates.
--Refinement of pre-existing UI.
--Work on interactions and effects/animations.
+- Creating end-to-end mobile app templates.
+- Refinement of pre-existing UI.
+- Work on interactions and effects/animations.
    
 # Contact Us ✉️
 Feel free to get in touch with us and join our [discussion](https://github.com/The-Robotics-Forum/flutter-ui-templates/discussions) for updates.
 
 # Project Maintainers 😃
 
- 
 <table align="center">
 <tr>
 <td align="center"><a href="https://github.com/Pavan49719"><img src="https://avatars.githubusercontent.com/u/90468365?v=4" width=150px height=150px /></a></br> <h4  style="color:blue">Pavan Bhadane</h4><br>
@@ -57,6 +57,16 @@ Feel free to get in touch with us and join our [discussion](https://github.com/T
 
 # Organization
 [![image](https://user-images.githubusercontent.com/90468365/178148078-f2740742-9e6d-44e0-aab3-08a74f4aacf1.png)](https://www.vitpunerobotics.com/#/)
+
+##  Open Source Program📌
+
+### This project is a part of following Open Source Programs
+
+<div align="center">
+
+ ![logo](https://user-images.githubusercontent.com/85816852/181296374-a2273b6c-45af-45d1-b5d8-ee871a035c1f.jpg)
+  
+</div>
 
 # Project Contributors 😄
   
