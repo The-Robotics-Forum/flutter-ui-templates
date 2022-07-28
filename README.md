@@ -1,6 +1,26 @@
 <div align="center">
+
 # Flutter UI Templates
 
+<p>
+
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=The-Robotics-Forum/flutter-ui-templates%20&countColor=%23263759&style=flat)
+![GitHub forks](https://img.shields.io/github/forks/The-Robotics-Forum/flutter-ui-templates)
+![GitHub Repo stars](https://img.shields.io/github/stars/The-Robotics-Forum/flutter-ui-templates)
+![GitHub contributors](https://img.shields.io/github/contributors/The-Robotics-Forum/flutter-ui-templates)
+![GitHub last commit](https://img.shields.io/github/last-commit/The-Robotics-Forum/flutter-ui-templates)
+  
+![GitHub repo size](https://img.shields.io/github/repo-size/The-Robotics-Forum/flutter-ui-templates)
+
+![Github](https://img.shields.io/github/license/The-Robotics-Forum/flutter-ui-templates)
+![GitHub issues](https://img.shields.io/github/issues/The-Robotics-Forum/flutter-ui-templates)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/The-Robotics-Forum/flutter-ui-templates)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/The-Robotics-Forum/flutter-ui-templates)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/The-Robotics-Forum/flutter-ui-templates)
+ </p>
+ 
 # Welcome Contributors 👋
 The Robotics Forum always encourages new ideas.
 
