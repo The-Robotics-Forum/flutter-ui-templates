@@ -29,8 +29,8 @@ Main aim of this repository is to make things faster and convenient for all the 
 
 # Objectives💡
 
-  <div text-align="center">
-    <ul margin="0 auto">
+  <div>
+    <ul  text-align="center">
       <li>Creating end-to-end mobile app templates.</li>
       <li>Refinement of pre-existing UI.</li>
       <li>Work on interactions and effects/animations.</li>
