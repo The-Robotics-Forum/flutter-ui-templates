@@ -13,8 +13,6 @@ The Robotics Forum always encourages new ideas.
 ![GitHub forks](https://img.shields.io/github/forks/The-Robotics-Forum/flutter-ui-templates)
 ![GitHub Repo stars](https://img.shields.io/github/stars/The-Robotics-Forum/flutter-ui-templates)
 ![GitHub last commit](https://img.shields.io/github/last-commit/The-Robotics-Forum/flutter-ui-templates)
-  
-![GitHub repo size](https://img.shields.io/github/repo-size/The-Robotics-Forum/flutter-ui-templates)
 
 ![Github](https://img.shields.io/github/license/The-Robotics-Forum/flutter-ui-templates)
 ![GitHub issues](https://img.shields.io/github/issues/The-Robotics-Forum/flutter-ui-templates)
