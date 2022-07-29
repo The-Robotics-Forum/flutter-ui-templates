@@ -56,7 +56,7 @@ class _PasswordState extends State<Password> {
                   filled: true,
                   contentPadding: const EdgeInsets.only(top: 5, left: 35),
                   hintText: 'Enter a strong password',
-                  hintStyle: TextStyle(color: Colors.grey),
+                  hintStyle: const TextStyle(color: Colors.grey),
                 ),
               ),
             ),
