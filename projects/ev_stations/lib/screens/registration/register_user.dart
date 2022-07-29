@@ -106,8 +106,10 @@ class _RegisterUserState extends State<RegisterUser> {
             ),
             GestureDetector(
               onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => const RegisterStation()));
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const RegisterStation()));
               },
               child: Center(
                 child: Container(
@@ -118,9 +120,9 @@ class _RegisterUserState extends State<RegisterUser> {
                       borderRadius: BorderRadius.circular(10)),
                   child: const Center(
                       child: Text(
-                        'Save',
-                        style: TextStyle(color: Colors.white, fontSize: 28),
-                      )),
+                    'Save',
+                    style: TextStyle(color: Colors.white, fontSize: 28),
+                  )),
                 ),
               ),
             ),
