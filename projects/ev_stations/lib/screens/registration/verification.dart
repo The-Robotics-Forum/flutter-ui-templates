@@ -70,7 +70,7 @@ class _VerificationState extends State<Verification> {
                   filled: true,
                   contentPadding: const EdgeInsets.only(top: 5, left: 35),
                   hintText: 'Enter the Phone No.',
-                  hintStyle: TextStyle(color: Colors.grey),
+                  hintStyle: const TextStyle(color: Colors.grey),
                 ),
               ),
             ),
