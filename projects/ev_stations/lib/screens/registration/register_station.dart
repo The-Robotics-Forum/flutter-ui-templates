@@ -69,7 +69,13 @@ class _RegisterStationState extends State<RegisterStation> {
                   height: 35,
                   child: TextField(
                     decoration: InputDecoration(
-                      suffixIcon: IconButton(icon: const Icon(Icons.arrow_drop_down_outlined,color: Colors.grey,), onPressed: () {  },),
+                      suffixIcon: IconButton(
+                        icon: const Icon(
+                          Icons.arrow_drop_down_outlined,
+                          color: Colors.grey,
+                        ),
+                        onPressed: () {},
+                      ),
                       enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(22.0),
                         borderSide: const BorderSide(color: Colors.grey),
@@ -136,14 +142,11 @@ class _RegisterStationState extends State<RegisterStation> {
                 ),
               ],
             ),
-
             const SizedBox(
               height: 50,
             ),
             GestureDetector(
-              onTap: () {
-
-              },
+              onTap: () {},
               child: Center(
                 child: Container(
                   width: 150,
@@ -153,9 +156,9 @@ class _RegisterStationState extends State<RegisterStation> {
                       borderRadius: BorderRadius.circular(10)),
                   child: const Center(
                       child: Text(
-                        'Save',
-                        style: TextStyle(color: Colors.white, fontSize: 28),
-                      )),
+                    'Save',
+                    style: TextStyle(color: Colors.white, fontSize: 28),
+                  )),
                 ),
               ),
             ),
