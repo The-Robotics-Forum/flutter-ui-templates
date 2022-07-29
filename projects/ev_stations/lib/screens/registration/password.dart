@@ -9,8 +9,6 @@ class Password extends StatefulWidget {
 }
 
 class _PasswordState extends State<Password> {
-  // ignore: prefer_typing_uninitialized_variables
-  var _value;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
