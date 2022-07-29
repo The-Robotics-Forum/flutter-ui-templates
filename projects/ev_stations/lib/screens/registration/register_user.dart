@@ -1,5 +1,4 @@
 // register_user
-
 import 'package:ev_stations/screens/registration/register_station.dart';
 import 'package:flutter/material.dart';
 
