@@ -1,6 +1,7 @@
 // Splash Screen
 import 'dart:async';
 import 'package:ev_stations/screens/login.dart';
+import 'package:ev_stations/screens/registration/register_user.dart';
 import 'package:flutter/material.dart';
 
 class Splash extends StatefulWidget {
