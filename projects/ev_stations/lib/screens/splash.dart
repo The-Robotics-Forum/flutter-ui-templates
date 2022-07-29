@@ -1,6 +1,7 @@
 // Splash Screen
 import 'dart:async';
 import 'package:ev_stations/screens/login.dart';
+import 'package:ev_stations/screens/registration/register_user.dart';
 import 'package:flutter/material.dart';
 
 class Splash extends StatefulWidget {
@@ -11,19 +12,15 @@ class Splash extends StatefulWidget {
 }
 
 class _SplashState extends State<Splash> {
-
   @override
   void initState() {
     super.initState();
-    Timer(const Duration(seconds: 3),
-            ()=>Navigator.pushReplacement(context,
-            MaterialPageRoute(builder:
-                (context) =>
-                const LoginScreen()
-            )
-        )
-    );
+    Timer(
+        const Duration(seconds: 3),
+        () => Navigator.pushReplacement(context,
+            MaterialPageRoute(builder: (context) => const LoginScreen())));
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -31,8 +28,14 @@ class _SplashState extends State<Splash> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          const Text('EV Charging Station',style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize: 30),),
-          const SizedBox(height: 10,),
+          const Text(
+            'EV Charging Station',
+            style: TextStyle(
+                color: Colors.white, fontWeight: FontWeight.bold, fontSize: 30),
+          ),
+          const SizedBox(
+            height: 10,
+          ),
           Image.asset('assets/splash_image.png'),
         ],
       ),
