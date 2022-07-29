@@ -156,9 +156,9 @@ class _RegisterStationState extends State<RegisterStation> {
                       borderRadius: BorderRadius.circular(10)),
                   child: const Center(
                       child: Text(
-                        'Save',
-                        style: TextStyle(color: Colors.white, fontSize: 28),
-                      )),
+                    'Save',
+                    style: TextStyle(color: Colors.white, fontSize: 28),
+                  )),
                 ),
               ),
             ),
