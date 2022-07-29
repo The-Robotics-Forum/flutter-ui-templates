@@ -74,9 +74,3 @@ Feel free to get in touch with us and join our [discussion](https://github.com/T
  ![logo](https://user-images.githubusercontent.com/85816852/181296374-a2273b6c-45af-45d1-b5d8-ee871a035c1f.jpg)
   
 </div>
-
-# Project Contributors 😄
-  
-  <a href="https://github.com/The-Robotics-Forum/flutter-ui-templates/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=The-Robotics-Forum/flutter-ui-templates" />
-</a>
