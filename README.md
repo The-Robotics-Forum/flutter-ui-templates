@@ -12,7 +12,6 @@ The Robotics Forum always encourages new ideas.
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=The-Robotics-Forum/flutter-ui-templates%20&countColor=%23263759&style=flat)
 ![GitHub forks](https://img.shields.io/github/forks/The-Robotics-Forum/flutter-ui-templates)
 ![GitHub Repo stars](https://img.shields.io/github/stars/The-Robotics-Forum/flutter-ui-templates)
-![GitHub contributors](https://img.shields.io/github/contributors/The-Robotics-Forum/flutter-ui-templates)
 ![GitHub last commit](https://img.shields.io/github/last-commit/The-Robotics-Forum/flutter-ui-templates)
   
 ![GitHub repo size](https://img.shields.io/github/repo-size/The-Robotics-Forum/flutter-ui-templates)
