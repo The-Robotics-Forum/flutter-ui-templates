@@ -107,7 +107,7 @@ class _RegisterUserState extends State<RegisterUser> {
             GestureDetector(
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => RegisterStation()));
+                    MaterialPageRoute(builder: (context) => const RegisterStation()));
               },
               child: Center(
                 child: Container(
