@@ -10,8 +10,6 @@ class Verification extends StatefulWidget {
 }
 
 class _VerificationState extends State<Verification> {
-  // ignore: prefer_typing_uninitialized_variables
-  var _value;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
