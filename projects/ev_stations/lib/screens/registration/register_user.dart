@@ -47,7 +47,13 @@ class _RegisterUserState extends State<RegisterUser> {
                   height: 35,
                   child: TextField(
                     decoration: InputDecoration(
-                      suffixIcon: IconButton(icon: const Icon(Icons.arrow_drop_down_outlined,color: Colors.grey,), onPressed: () {  },),
+                      suffixIcon: IconButton(
+                        icon: const Icon(
+                          Icons.arrow_drop_down_outlined,
+                          color: Colors.grey,
+                        ),
+                        onPressed: () {},
+                      ),
                       enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(22.0),
                         borderSide: const BorderSide(color: Colors.grey),
@@ -71,7 +77,13 @@ class _RegisterUserState extends State<RegisterUser> {
                   height: 35,
                   child: TextField(
                     decoration: InputDecoration(
-                      suffixIcon: IconButton(icon: const Icon(Icons.arrow_drop_down_outlined,color: Colors.grey,), onPressed: () {  },),
+                      suffixIcon: IconButton(
+                        icon: const Icon(
+                          Icons.arrow_drop_down_outlined,
+                          color: Colors.grey,
+                        ),
+                        onPressed: () {},
+                      ),
                       enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(22.0),
                         borderSide: const BorderSide(color: Colors.grey),
@@ -89,13 +101,13 @@ class _RegisterUserState extends State<RegisterUser> {
                 ),
               ],
             ),
-
             const SizedBox(
               height: 50,
             ),
             GestureDetector(
               onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context)=> RegisterStation()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => RegisterStation()));
               },
               child: Center(
                 child: Container(
@@ -106,9 +118,9 @@ class _RegisterUserState extends State<RegisterUser> {
                       borderRadius: BorderRadius.circular(10)),
                   child: const Center(
                       child: Text(
-                        'Save',
-                        style: TextStyle(color: Colors.white, fontSize: 28),
-                      )),
+                    'Save',
+                    style: TextStyle(color: Colors.white, fontSize: 28),
+                  )),
                 ),
               ),
             ),
