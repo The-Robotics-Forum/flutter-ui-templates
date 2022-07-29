@@ -80,5 +80,3 @@ Feel free to get in touch with us and join our [discussion](https://github.com/T
   <a href="https://github.com/The-Robotics-Forum/flutter-ui-templates/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=The-Robotics-Forum/flutter-ui-templates" />
 </a>
-
-
