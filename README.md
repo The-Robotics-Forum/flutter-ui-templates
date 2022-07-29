@@ -52,7 +52,7 @@ Feel free to get in touch with us and join our [discussion](https://github.com/T
 </tr>
 </table>
 
-https://www.linkedin.com/in/siddhant-pawar-398a05201/
+
  
 # Contributing Guidelines 📋
 [Click here](CONTRIBUTING.md)
