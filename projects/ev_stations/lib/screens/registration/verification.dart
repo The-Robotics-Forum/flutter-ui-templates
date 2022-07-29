@@ -80,7 +80,7 @@ class _VerificationState extends State<Verification> {
             GestureDetector(
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => Password()));
+                    MaterialPageRoute(builder: (context) => const Password()));
               },
               child: Center(
                 child: Container(
