@@ -1,7 +1,5 @@
 // verification
-// Login Screen
 import 'package:ev_stations/screens/registration/password.dart';
-import 'package:ev_stations/screens/users/dashboard.dart';
 import 'package:flutter/material.dart';
 
 class Verification extends StatefulWidget {
