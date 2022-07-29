@@ -19,9 +19,11 @@ class _VerificationState extends State<Verification> {
     return Scaffold(
       backgroundColor: const Color(0xFF454545),
       appBar: AppBar(
-        leading: InkWell(onTap: (){
-          Navigator.pop(context);
-        },child:  Icon(Icons.arrow_back)),
+        leading: InkWell(
+            onTap: () {
+              Navigator.pop(context);
+            },
+            child: Icon(Icons.arrow_back)),
         backgroundColor: Colors.transparent,
         elevation: 0,
       ),
@@ -33,7 +35,10 @@ class _VerificationState extends State<Verification> {
               padding: EdgeInsets.symmetric(horizontal: 30, vertical: 5),
               child: Text(
                 'Verification',
-                style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),
+                style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 40,
+                    fontWeight: FontWeight.bold),
               ),
             ),
             const SizedBox(
@@ -43,7 +48,10 @@ class _VerificationState extends State<Verification> {
               padding: EdgeInsets.symmetric(horizontal: 30, vertical: 5),
               child: Text(
                 'OTP sent on XXXX-XXXX-54',
-                style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),
+                style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold),
               ),
             ),
             const SizedBox(
@@ -55,12 +63,18 @@ class _VerificationState extends State<Verification> {
               child: TextField(
                 textAlign: TextAlign.center,
                 decoration: InputDecoration(
-                  enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(22.0), borderSide: const BorderSide(color: Colors.grey) ,),
-                  focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(22.0), borderSide: const BorderSide(color: Colors.grey) ,),
+                  enabledBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(22.0),
+                    borderSide: const BorderSide(color: Colors.grey),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(22.0),
+                    borderSide: const BorderSide(color: Colors.grey),
+                  ),
                   filled: true,
                   contentPadding: const EdgeInsets.only(top: 5, left: 35),
                   hintText: 'Enter the Phone No.',
-                  hintStyle:  TextStyle(color: Colors.grey),
+                  hintStyle: TextStyle(color: Colors.grey),
                 ),
               ),
             ),
@@ -68,8 +82,9 @@ class _VerificationState extends State<Verification> {
               height: 30,
             ),
             GestureDetector(
-              onTap: (){
-                Navigator.push(context, MaterialPageRoute(builder: (context)=> Password()));
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => Password()));
               },
               child: Center(
                 child: Container(
@@ -77,9 +92,12 @@ class _VerificationState extends State<Verification> {
                   height: 50,
                   decoration: BoxDecoration(
                       color: const Color(0xFF20BCDE),
-                      borderRadius: BorderRadius.circular(10)
-                  ),
-                  child: const Center(child: Text('Verify',style: TextStyle(color: Colors.white,fontSize: 28),)),
+                      borderRadius: BorderRadius.circular(10)),
+                  child: const Center(
+                      child: Text(
+                    'Verify',
+                    style: TextStyle(color: Colors.white, fontSize: 28),
+                  )),
                 ),
               ),
             ),
