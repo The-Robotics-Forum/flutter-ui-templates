@@ -18,7 +18,7 @@ class _PasswordState extends State<Password> {
             onTap: () {
               Navigator.pop(context);
             },
-            child: Icon(Icons.arrow_back)),
+            child: const Icon(Icons.arrow_back)),
         backgroundColor: Colors.transparent,
         elevation: 0,
       ),
