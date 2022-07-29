@@ -16,7 +16,11 @@ class _PasswordState extends State<Password> {
     return Scaffold(
       backgroundColor: const Color(0xFF454545),
       appBar: AppBar(
-        leading: InkWell(onTap: (){Navigator.pop(context);},child:  Icon(Icons.arrow_back)),
+        leading: InkWell(
+            onTap: () {
+              Navigator.pop(context);
+            },
+            child: Icon(Icons.arrow_back)),
         backgroundColor: Colors.transparent,
         elevation: 0,
       ),
@@ -28,7 +32,10 @@ class _PasswordState extends State<Password> {
               padding: EdgeInsets.symmetric(horizontal: 30, vertical: 5),
               child: Text(
                 'Create a Password',
-                style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold),
+                style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 40,
+                    fontWeight: FontWeight.bold),
               ),
             ),
             const SizedBox(
@@ -40,12 +47,18 @@ class _PasswordState extends State<Password> {
               child: TextField(
                 textAlign: TextAlign.center,
                 decoration: InputDecoration(
-                  enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(22.0), borderSide: const BorderSide(color: Colors.grey) ,),
-                  focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(22.0), borderSide: const BorderSide(color: Colors.grey) ,),
+                  enabledBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(22.0),
+                    borderSide: const BorderSide(color: Colors.grey),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(22.0),
+                    borderSide: const BorderSide(color: Colors.grey),
+                  ),
                   filled: true,
                   contentPadding: const EdgeInsets.only(top: 5, left: 35),
                   hintText: 'Enter a strong password',
-                  hintStyle:  TextStyle(color: Colors.grey),
+                  hintStyle: TextStyle(color: Colors.grey),
                 ),
               ),
             ),
@@ -58,12 +71,18 @@ class _PasswordState extends State<Password> {
               child: TextField(
                 textAlign: TextAlign.center,
                 decoration: InputDecoration(
-                  enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(22.0), borderSide: const BorderSide(color: Colors.grey) ,),
-                  focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(22.0), borderSide: const BorderSide(color: Colors.grey) ,),
+                  enabledBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(22.0),
+                    borderSide: const BorderSide(color: Colors.grey),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(22.0),
+                    borderSide: const BorderSide(color: Colors.grey),
+                  ),
                   filled: true,
                   contentPadding: const EdgeInsets.only(top: 5, left: 35),
                   hintText: 'Renter the password',
-                  hintStyle:  TextStyle(color: Colors.grey),
+                  hintStyle: TextStyle(color: Colors.grey),
                 ),
               ),
             ),
@@ -71,18 +90,19 @@ class _PasswordState extends State<Password> {
               height: 30,
             ),
             GestureDetector(
-              onTap: (){
-
-              },
+              onTap: () {},
               child: Center(
                 child: Container(
                   width: 150,
                   height: 50,
                   decoration: BoxDecoration(
                       color: const Color(0xFF20BCDE),
-                      borderRadius: BorderRadius.circular(10)
-                  ),
-                  child: const Center(child: Text('Set',style: TextStyle(color: Colors.white,fontSize: 28),)),
+                      borderRadius: BorderRadius.circular(10)),
+                  child: const Center(
+                      child: Text(
+                    'Set',
+                    style: TextStyle(color: Colors.white, fontSize: 28),
+                  )),
                 ),
               ),
             ),
