@@ -38,6 +38,15 @@
       <excludeFolder url="file://$MODULE_DIR$/projects/templates/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/projects/templates/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/projects/templates/build" />
+      <excludeFolder url="file://$MODULE_DIR$/projects/vegetable_app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/projects/vegetable_app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/projects/vegetable_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/projects/vegetable_app/windows/flutter/ephemeral/.plugin_symlinks/geolocator_windows/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/projects/vegetable_app/windows/flutter/ephemeral/.plugin_symlinks/geolocator_windows/build" />
+      <excludeFolder url="file://$MODULE_DIR$/projects/vegetable_app/windows/flutter/ephemeral/.plugin_symlinks/geolocator_windows/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/projects/vegetable_app/windows/flutter/ephemeral/.plugin_symlinks/geolocator_windows/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/projects/vegetable_app/windows/flutter/ephemeral/.plugin_symlinks/geolocator_windows/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/projects/vegetable_app/windows/flutter/ephemeral/.plugin_symlinks/geolocator_windows/example/.dart_tool" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 30 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
