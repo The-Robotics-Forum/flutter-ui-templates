@@ -12,12 +12,8 @@ The Robotics Forum always encourages new ideas.
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=The-Robotics-Forum/flutter-ui-templates%20&countColor=%23263759&style=flat)
 ![GitHub forks](https://img.shields.io/github/forks/The-Robotics-Forum/flutter-ui-templates)
 ![GitHub Repo stars](https://img.shields.io/github/stars/The-Robotics-Forum/flutter-ui-templates)
-![GitHub contributors](https://img.shields.io/github/contributors/The-Robotics-Forum/flutter-ui-templates)
 ![GitHub last commit](https://img.shields.io/github/last-commit/The-Robotics-Forum/flutter-ui-templates)
-  
-![GitHub repo size](https://img.shields.io/github/repo-size/The-Robotics-Forum/flutter-ui-templates)
 
-![Github](https://img.shields.io/github/license/The-Robotics-Forum/flutter-ui-templates)
 ![GitHub issues](https://img.shields.io/github/issues/The-Robotics-Forum/flutter-ui-templates)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/The-Robotics-Forum/flutter-ui-templates)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/The-Robotics-Forum/flutter-ui-templates)
@@ -74,11 +70,3 @@ Feel free to get in touch with us and join our [discussion](https://github.com/T
  ![logo](https://user-images.githubusercontent.com/85816852/181296374-a2273b6c-45af-45d1-b5d8-ee871a035c1f.jpg)
   
 </div>
-
-# Project Contributors 😄
-  
-  <a href="https://github.com/The-Robotics-Forum/flutter-ui-templates/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=The-Robotics-Forum/flutter-ui-templates" />
-</a>
-
-
