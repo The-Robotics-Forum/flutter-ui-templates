@@ -45,6 +45,9 @@ dependencies:
   battery_indicator: ^0.1.1
   syncfusion_flutter_charts: ^20.2.40
   fl_chart: ^0.55.0
+  geolocator: ^9.0.1
+  fluttertoast: ^8.0.9
+  geocoding: ^2.0.4
 
 dev_dependencies:
   flutter_test:

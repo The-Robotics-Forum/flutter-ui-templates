@@ -1,4 +1,5 @@
 // Login Screen
+import 'package:ev_stations/screens/registration/registration.dart';
 import 'package:ev_stations/screens/users/dashboard.dart';
 import 'package:flutter/material.dart';
 
@@ -159,7 +160,9 @@ class _LoginScreenState extends State<LoginScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               children:  [
                 const Center(child:  Text('New User?',style: TextStyle(color: Colors.white),),),
-                InkWell(onTap:(){}, child:const Text(' Register',style:  TextStyle(color:  Color(0xFF20BCDE) ),))
+                InkWell(onTap:(){
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=> const RegistrationScreen()));
+                }, child:const Text(' Register',style:  TextStyle(color:  Color(0xFF20BCDE) ),))
               ],
             )
           ],
