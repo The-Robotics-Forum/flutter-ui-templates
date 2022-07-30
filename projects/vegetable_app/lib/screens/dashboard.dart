@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:tab_container/tab_container.dart';
-import 'package:qr_flutter/qr_flutter.dart';
 
 class Dashboard extends StatefulWidget {
   const Dashboard({Key? key}) : super(key: key);
@@ -36,8 +35,10 @@ class _DashboardState extends State<Dashboard> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer:Drawer(),
       backgroundColor: Colors.grey,
       appBar: AppBar(
+        actions: [IconButton(onPressed: (){}, icon: Icon(Icons.doorbell_outlined))],
         title: const Text('Dasboard'),
         backgroundColor: Colors.grey,
       ),
@@ -48,7 +49,7 @@ class _DashboardState extends State<Dashboard> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               const Text(
-                'Welcome Pavan ',
+                'Welcome Pavan',
                 style: TextStyle(
                     color: Colors.white,
                     fontSize: 40,
@@ -97,11 +98,13 @@ class _DashboardState extends State<Dashboard> {
                     'b','c','d'
                   ],
                   children: [
-                    Container(
-                      decoration:BoxDecoration(
-                          borderRadius: BorderRadius.circular(10)
+                    Center(
+                      child: Container(
+                        decoration:BoxDecoration(
+                            borderRadius: BorderRadius.circular(10)
+                        ),
+                        child: Image.asset('assets/img.png')
                       ),
-                      child: const GenerateQR(),
                     ),
                     Container(),
                     Container(),
@@ -118,57 +121,3 @@ class _DashboardState extends State<Dashboard> {
 
 }
 
-class GenerateQR extends StatefulWidget {
-  const GenerateQR({Key? key}) : super(key: key);
-
-  @override
-  _GenerateQRState createState() => _GenerateQRState();
-}
-
-class _GenerateQRState extends State<GenerateQR> {
-
-  String qrData="https://github.com/ChinmayMunje";
-  final qrdataFeed = TextEditingController();
-  @override
-  Widget build(BuildContext context) {
-    return  Container(
-      padding: const EdgeInsets.all(20),
-      child: SingleChildScrollView(
-        child: Wrap(
-          crossAxisAlignment: WrapCrossAlignment.center,
-          children: [
-            QrImage(data: qrData),
-            const SizedBox(height: 20),
-            const Text("Generate QR Code",style: TextStyle(fontSize: 20),),
-
-            //TextField for input link
-            TextField(
-              decoration: const InputDecoration(
-                  hintText: "Enter your link here..."
-              ),
-              controller: qrdataFeed,
-            ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              //Button for generating QR code
-              child: ElevatedButton(
-                onPressed: () async {
-                  if (qrdataFeed.text.isEmpty) {
-                    setState(() {
-                      qrData = "";
-                    });
-                  } else {
-                    setState(() {
-                      qrData = qrdataFeed.text;
-                    });
-                  }
-                },
-                child: Text("Generate QR Code",style: TextStyle(color: Colors.indigo[900],),),
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
