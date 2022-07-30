@@ -95,7 +95,7 @@ class _DashboardState extends State<Dashboard> {
                   textTheme.bodyText2?.copyWith(fontSize: 13.0),
                   tabs: const [
                     'My QR Code',
-                    'b','c','d'
+                    'Scan','History','Graph'
                   ],
                   children: [
                     Center(
