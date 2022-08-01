@@ -58,7 +58,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFE5E5E5),
+      backgroundColor: const Color(0xFFEEEEEE),
       appBar: AppBar(
         leading: IconButton(onPressed: (){},icon: const Icon(Icons.arrow_back,color: Colors.black,),),
         backgroundColor: Colors.transparent,
