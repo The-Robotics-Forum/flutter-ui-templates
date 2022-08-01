@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:vegetable_app/screens/dashboard.dart';
 import 'package:vegetable_app/screens/register.dart';
+import 'package:vegetable_app/screens/select_language.dart';
 
 void main() {
   runApp(const MyApp());
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const RegistrationScreen(),
+      home: const SelectLanguage(),
     );
   }
 }
