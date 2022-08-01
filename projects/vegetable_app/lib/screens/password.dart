@@ -12,7 +12,7 @@ class _PasswordState extends State<Password> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white70,
+      backgroundColor: const Color(0xFFEEEEEE),
       appBar: AppBar(
         leading: InkWell(
             onTap: () {
