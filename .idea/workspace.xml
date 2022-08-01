@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,25 +28,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90e2ba15-f2ee-43db-9264-26b0332bf788" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/flutter-ui-templates.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flutter-ui-templates.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/ev_stations/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ev_stations/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/ev_stations/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ev_stations/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/ev_stations/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ev_stations/android/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/ev_stations/lib/screens/login.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ev_stations/lib/screens/login.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/ev_stations/lib/screens/registration/registration.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ev_stations/lib/screens/registration/registration.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/ev_stations/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ev_stations/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/ev_stations/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ev_stations/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/ev_stations/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ev_stations/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/ev_stations/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ev_stations/windows/flutter/generated_plugins.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/lib/screens/select_language.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/lib/screens/select_language.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[flutterphone]" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -54,6 +52,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/projects/vegetable_app/lib/screens/select_language.dart" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="2CJEsMaDtPtObijNcKThf6fco87" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -62,6 +63,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../FlutterProject/theme" />
@@ -71,12 +74,22 @@
     <property name="settings.editor.selected.configurable" value="dart.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Flutter.main.dart (1)">
+    <configuration name="main.dart (1)" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" />
+      <method v="2" />
+    </configuration>
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/projects/ev_stations/lib/main.dart" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flutter.main.dart (1)" />
+      </list>
+    </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -101,47 +114,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="65" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1658512536104">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="65" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1658512536104" />
-    <state x="301" y="130" key="#main.dart" timestamp="1658512678715">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="301" y="130" key="#main.dart/0.0.1536.824@0.0.1536.824" timestamp="1658512678715" />
-    <state x="390" y="168" key="FileChooserDialogImpl" timestamp="1658750370140">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="390" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1658750370140" />
-    <state width="1172" height="192" key="GridCell.Tab.0.bottom" timestamp="1659155247515">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1172" height="192" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1659155247515" />
-    <state width="1172" height="192" key="GridCell.Tab.0.center" timestamp="1659155247515">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1172" height="192" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1659155247515" />
-    <state width="1172" height="192" key="GridCell.Tab.0.left" timestamp="1659155247514">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1172" height="192" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1659155247514" />
-    <state width="1172" height="192" key="GridCell.Tab.0.right" timestamp="1659155247515">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1172" height="192" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1659155247515" />
-    <state x="119" y="0" key="SettingsEditor" timestamp="1658563372516">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="119" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1658563372516" />
-    <state x="314" y="0" width="586" height="824" key="find.popup" timestamp="1658650899675">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="314" y="0" width="586" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1658650899675" />
-    <state x="259" y="190" key="run.anything.popup" timestamp="1659155526858">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="259" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1659155526858" />
   </component>
 </project>
