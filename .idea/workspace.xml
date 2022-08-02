@@ -28,8 +28,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90e2ba15-f2ee-43db-9264-26b0332bf788" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/flutter-ui-templates.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flutter-ui-templates.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/ev_stations/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ev_stations/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/ev_stations/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ev_stations/windows/flutter/generated_plugins.cmake" afterDir="false" />
@@ -67,6 +65,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/projects/vegetable_app/lib/screens/select_language.dart" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2CJEsMaDtPtObijNcKThf6fco87" />
   <component name="ProjectViewState">
