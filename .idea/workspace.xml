@@ -29,8 +29,27 @@
   <component name="ChangeListManager">
     <list default="true" id="90e2ba15-f2ee-43db-9264-26b0332bf788" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/vegetable_app/lib/screens/select_language.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/lib/screens/select_language.dart" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/projects/ev_stations/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ev_stations/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ev_stations/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ev_stations/windows/flutter/generated_plugins.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/android/app/src/profile/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/lib/screens/register.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/lib/screens/register.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/linux/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/linux/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/linux/flutter/generated_plugin_registrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/linux/flutter/generated_plugin_registrant.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/linux/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/linux/flutter/generated_plugins.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/windows/flutter/generated_plugin_registrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/windows/flutter/generated_plugin_registrant.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/windows/flutter/generated_plugins.cmake" afterDir="false" />
+>>>>>>> f0975be35b100e37aeeae4b96b9cfe773cd94601
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
