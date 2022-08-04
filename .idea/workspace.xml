@@ -31,9 +31,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/vegetable_app/lib/screens/select_language.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/lib/screens/select_language.dart" afterDir="false" />
 =======
+=======
+      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/lib/screens/select_language.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/lib/screens/select_language.dart" afterDir="false" />
+>>>>>>> 12806c9b0826475d4da8938f48397429dc6162f2
 =======
       <change beforePath="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/vegetable_app/lib/screens/select_language.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/lib/screens/select_language.dart" afterDir="false" />
@@ -55,7 +60,10 @@
       <change beforePath="$PROJECT_DIR$/projects/vegetable_app/windows/flutter/generated_plugin_registrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/windows/flutter/generated_plugin_registrant.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/vegetable_app/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/windows/flutter/generated_plugins.cmake" afterDir="false" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f0975be35b100e37aeeae4b96b9cfe773cd94601
+=======
+>>>>>>> 12806c9b0826475d4da8938f48397429dc6162f2
 =======
 >>>>>>> 12806c9b0826475d4da8938f48397429dc6162f2
     </list>

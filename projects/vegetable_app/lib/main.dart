@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:vegetable_app/screens/dashboard.dart';
+<<<<<<< HEAD
 import 'package:vegetable_app/screens/notification.dart';
 import 'package:vegetable_app/screens/register.dart';
 import 'package:vegetable_app/screens/select_language.dart';
+=======
+import 'package:vegetable_app/screens/register.dart';
+import 'package:vegetable_app/screens/select_language.dart
+>>>>>>> 12806c9b0826475d4da8938f48397429dc6162f2
 import 'package:vegetable_app/screens/vege_info.dart';
 
 void main() {
@@ -30,7 +35,11 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
+<<<<<<< HEAD
       home: const NotificationScreen(),
+=======
+      home: const VegeInfoScreen(),
+>>>>>>> 12806c9b0826475d4da8938f48397429dc6162f2
     );
   }
 }
