@@ -38,6 +38,7 @@ dependencies:
   flutter_vector_icons: ^1.0.0
   geolocator: ^9.0.1
   geocoding: ^2.0.4
+  carousel_slider: ^4.1.1
 
 
 dev_dependencies:
