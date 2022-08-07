@@ -32,6 +32,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/vegetable_app/lib/screens/select_language.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/lib/screens/select_language.dart" afterDir="false" />
 =======
@@ -43,6 +44,15 @@
       <change beforePath="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/vegetable_app/lib/screens/select_language.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/lib/screens/select_language.dart" afterDir="false" />
 >>>>>>> 12806c9b0826475d4da8938f48397429dc6162f2
+=======
+
+      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/lib/screens/select_language.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/lib/screens/select_language.dart" afterDir="false" />
+
+      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/lib/screens/select_language.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/lib/screens/select_language.dart" afterDir="false" />
+
+>>>>>>> 0677fda33020e8b812979566e2d3670658b0460b
       <change beforePath="$PROJECT_DIR$/projects/ev_stations/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ev_stations/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/ev_stations/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ev_stations/windows/flutter/generated_plugins.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/vegetable_app/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/android/app/build.gradle" afterDir="false" />
@@ -61,11 +71,15 @@
       <change beforePath="$PROJECT_DIR$/projects/vegetable_app/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/windows/flutter/generated_plugins.cmake" afterDir="false" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f0975be35b100e37aeeae4b96b9cfe773cd94601
 =======
 >>>>>>> 12806c9b0826475d4da8938f48397429dc6162f2
 =======
 >>>>>>> 12806c9b0826475d4da8938f48397429dc6162f2
+=======
+
+>>>>>>> 0677fda33020e8b812979566e2d3670658b0460b
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
