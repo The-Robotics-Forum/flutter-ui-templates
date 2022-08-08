@@ -39,6 +39,7 @@ dependencies:
   geolocator: ^9.0.1
   geocoding: ^2.0.4
   carousel_slider: ^4.1.1
+  timelines: ^0.1.0
 
 
 dev_dependencies:
