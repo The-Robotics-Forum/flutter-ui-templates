@@ -38,6 +38,8 @@ dependencies:
   flutter_vector_icons: ^1.0.0
   geolocator: ^9.0.1
   geocoding: ^2.0.4
+  syncfusion_flutter_charts: ^20.2.40
+  fl_chart: ^0.55.0
 
 
 dev_dependencies:
