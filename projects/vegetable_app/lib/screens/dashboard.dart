@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tab_container/tab_container.dart';
+import 'package:vegetable_app/screens/qr_code_scanner.dart';
 import 'package:vegetable_app/screens/history.dart';
 import 'package:vegetable_app/screens/statistics_screen.dart';
 
@@ -108,7 +109,10 @@ class _DashboardState extends State<Dashboard> {
                         child: Image.asset('assets/img.png')
                       ),
                     ),
-                    Container(),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Scanner(),
+                    ),
                     Container(),
                     Statistics(),
 
