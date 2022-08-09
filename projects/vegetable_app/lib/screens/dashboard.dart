@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:tab_container/tab_container.dart';
+import 'package:vegetable_app/screens/qr_code_scanner.dart';
+import 'package:vegetable_app/screens/history.dart';
+import 'package:vegetable_app/screens/statistics_screen.dart';
 
 class Dashboard extends StatefulWidget {
   const Dashboard({Key? key}) : super(key: key);
@@ -106,9 +109,13 @@ class _DashboardState extends State<Dashboard> {
                         child: Image.asset('assets/img.png')
                       ),
                     ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Scanner(),
+                    ),
                     Container(),
-                    Container(),
-                    Container()
+                    Statistics(),
+
                   ],
                 ),
               ),
@@ -119,4 +126,3 @@ class _DashboardState extends State<Dashboard> {
     );
   }
 }
-

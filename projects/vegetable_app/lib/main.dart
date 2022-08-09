@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:vegetable_app/screens/best_farmers.dart';
 import 'package:vegetable_app/screens/dashboard.dart';
+import 'package:vegetable_app/screens/data_entry.dart';
 import 'package:vegetable_app/screens/notification.dart';
 import 'package:vegetable_app/screens/register.dart';
 import 'package:vegetable_app/screens/select_language.dart';
@@ -8,6 +9,15 @@ import 'package:vegetable_app/screens/register.dart';
 import 'package:vegetable_app/screens/select_language.dart
 import 'package:vegetable_app/screens/register.dart';
 import 'package:vegetable_app/screens/select_language.dart
+
+import 'package:vegetable_app/screens/login.dart';
+import 'package:vegetable_app/screens/notification.dart';
+import 'package:vegetable_app/screens/register.dart';
+import 'package:vegetable_app/screens/select_language.dart';
+import 'package:vegetable_app/screens/register.dart';
+import 'package:vegetable_app/screens/select_language.dart';
+import 'package:vegetable_app/screens/register.dart';
+import 'package:vegetable_app/screens/select_language.dart';
 import 'package:vegetable_app/screens/vege_info.dart';
 
 void main() {
@@ -35,7 +45,8 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const BestFarmersScreen(),
+
+      home: const Dashboard(),
     );
   }
 }
