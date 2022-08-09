@@ -17,7 +17,9 @@ class _LoginScreenState extends State<LoginScreen> {
     return Scaffold(
       backgroundColor: const Color(0xFFEEEEEE),
       appBar: AppBar(
-        leading: InkWell(onTap: (){},child:  const Icon(Icons.arrow_back)),
+
+        leading: InkWell(onTap: (){},child:  const Icon(Icons.arrow_back,color: Colors.black,)),
+
         backgroundColor: Colors.transparent,
         elevation: 0,
       ),
