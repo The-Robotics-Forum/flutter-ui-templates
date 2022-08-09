@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tab_container/tab_container.dart';
 import 'package:vegetable_app/screens/qr_code_scanner.dart';
+import 'package:vegetable_app/screens/history.dart';
 import 'package:vegetable_app/screens/statistics_screen.dart';
 
 class Dashboard extends StatefulWidget {
@@ -114,6 +115,7 @@ class _DashboardState extends State<Dashboard> {
                     ),
                     Container(),
                     Statistics(),
+
                   ],
                 ),
               ),
@@ -124,4 +126,3 @@ class _DashboardState extends State<Dashboard> {
     );
   }
 }
-
