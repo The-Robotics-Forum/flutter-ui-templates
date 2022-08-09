@@ -201,6 +201,7 @@
               <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/flutter_lints-1.0.4/lib" />
               <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/flutter_lints-2.0.1/lib" />
               <option value="C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_lints-1.0.4/lib" />
+
             </list>
           </value>
         </entry>
@@ -636,6 +637,7 @@
           <value>
             <list>
               <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/timelines-0.1.0/lib" />
+
             </list>
           </value>
         </entry>

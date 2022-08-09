@@ -41,7 +41,8 @@ dependencies:
   carousel_slider: ^4.1.1
   smooth_page_indicator: ^1.0.0+2
   timelines: ^0.1.0
-
+  syncfusion_flutter_charts: ^20.2.40
+  fl_chart: ^0.55.0
 
 
 dev_dependencies:
