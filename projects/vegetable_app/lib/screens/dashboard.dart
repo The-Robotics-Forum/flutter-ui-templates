@@ -109,10 +109,9 @@ class _DashboardState extends State<Dashboard> {
                       ),
                     ),
                     Container(),
-                    Container(
-                      child: HistoryScreen(),
-                    ),
-                    Container()
+                    Container(),
+                    Statistics(),
+
                   ],
                 ),
               ),
