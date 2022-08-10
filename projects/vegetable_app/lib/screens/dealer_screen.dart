@@ -64,19 +64,20 @@ class _DealerScreenState extends State<DealerScreen> {
                 style: ButtonStyle(
                   shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                       RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(15.0),
-                          )),
+                    borderRadius: BorderRadius.circular(15.0),
+                  )),
                   backgroundColor: MaterialStateProperty.all(Colors.white),
                   elevation: MaterialStateProperty.all(10),
                 ),
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=> Confirmation()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Confirmation()));
                 },
                 child: const Padding(
                   padding: EdgeInsets.all(8.0),
                   child: Text(
                     'Add Existing Dealer',
-                    style: TextStyle(color: Colors.grey,fontSize: 20),
+                    style: TextStyle(color: Colors.grey, fontSize: 20),
                   ),
                 )),
           ),
@@ -88,19 +89,20 @@ class _DealerScreenState extends State<DealerScreen> {
                 style: ButtonStyle(
                   shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                       RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(15.0),
-                      )),
+                    borderRadius: BorderRadius.circular(15.0),
+                  )),
                   backgroundColor: MaterialStateProperty.all(Colors.white),
                   elevation: MaterialStateProperty.all(10),
                 ),
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=> Confirmation()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Confirmation()));
                 },
                 child: const Padding(
                   padding: EdgeInsets.all(8.0),
                   child: Text(
                     'Explore New Dealer',
-                    style: TextStyle(color: Colors.grey,fontSize: 20),
+                    style: TextStyle(color: Colors.grey, fontSize: 20),
                   ),
                 )),
           ),

@@ -9,19 +9,25 @@ class Confirmation extends StatelessWidget {
       backgroundColor: Color(0xFF20BCDE),
       body: Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: const [Icon(Icons.check_circle,color: Colors.white ,size: 170,),
-            Padding(
-              padding: EdgeInsets.all(8.0),
-              child: Text(
-                'Request Send',
-                style: TextStyle(color: Colors.white,fontSize: 25,fontWeight: FontWeight.bold),
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: const [
+              Icon(
+                Icons.check_circle,
+                color: Colors.white,
+                size: 170,
               ),
-            )
-          ]
-        ),
+              Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Text(
+                  'Request Send',
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 25,
+                      fontWeight: FontWeight.bold),
+                ),
+              )
+            ]),
       ),
     );
   }
 }
-
