@@ -25,12 +25,12 @@ class _DrawerScreenState extends State<DrawerScreen> {
                       width: 140,
                       child: Text(
                         'Hello,'
-                        'Pavan',
+                            'Pavan',
                         style: TextStyle(fontSize: 45, color: Colors.white, fontWeight: FontWeight.w500),
                       ),
                     ),
                   ),
-                 const SizedBox(
+                  const SizedBox(
                     width: 70,
                   ),
                   Padding(
@@ -71,7 +71,7 @@ class _DrawerScreenState extends State<DrawerScreen> {
               )
             ],
           ),
-         const ListTile(
+          const ListTile(
             title: Padding(
               padding:  EdgeInsets.only(left: 30.0),
               child: Text(
