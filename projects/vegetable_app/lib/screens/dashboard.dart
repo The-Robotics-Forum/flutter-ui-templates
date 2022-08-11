@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:tab_container/tab_container.dart';
 import 'package:vegetable_app/screens/qr_code_scanner.dart';
 import 'package:vegetable_app/screens/history.dart';
+import 'package:vegetable_app/screens/side_drawer.dart';
 import 'package:vegetable_app/screens/statistics_screen.dart';
 
 class Dashboard extends StatefulWidget {
@@ -38,7 +39,7 @@ class _DashboardState extends State<Dashboard> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer:Drawer(),
+      drawer:DrawerScreen(),
       backgroundColor: Colors.grey,
       appBar: AppBar(
         actions: [IconButton(onPressed: (){}, icon: Icon(Icons.doorbell_outlined))],
