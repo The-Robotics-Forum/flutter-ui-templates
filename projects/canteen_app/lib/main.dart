@@ -1,3 +1,4 @@
+import 'package:canteen_app/Screen/Register/registrationScreen.dart';
 import 'package:canteen_app/dashboard.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +17,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      debugShowCheckedModeBanner: false,
+      home: const RegisterScreen(),
     );
   }
 }
