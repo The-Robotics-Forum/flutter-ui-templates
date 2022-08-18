@@ -1,3 +1,4 @@
+import 'package:canteen_app/Screen/Register/upload_profile_pic.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -163,7 +164,7 @@ class _RegisterChildState extends State<RegisterChild> {
                   SizedBox(height: 80,),
                   GestureDetector(
                     onTap: (){
-
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => const UploadPic()));
                     },
                     child: Center(
                       child: Container(
