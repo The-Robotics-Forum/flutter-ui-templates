@@ -28,35 +28,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90e2ba15-f2ee-43db-9264-26b0332bf788" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/projects/canteen_app/assets/Gallery.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/canteen_app/assets/ProfilePic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/canteen_app/assets/camera.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/canteen_app/lib/Screen/Register/upload_profile_pic.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-
-      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/lib/screens/select_language.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/lib/screens/select_language.dart" afterDir="false" />
-
-      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/lib/screens/select_language.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/lib/screens/select_language.dart" afterDir="false" />
-
-      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/lib/screens/select_language.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/lib/screens/select_language.dart" afterDir="false" />
-
-
-      <change beforePath="$PROJECT_DIR$/projects/ev_stations/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ev_stations/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/ev_stations/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ev_stations/windows/flutter/generated_plugins.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/android/app/src/profile/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/lib/screens/register.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/lib/screens/register.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/linux/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/linux/flutter/generated_plugin_registrant.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/linux/flutter/generated_plugin_registrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/linux/flutter/generated_plugin_registrant.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/linux/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/linux/flutter/generated_plugins.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/windows/flutter/generated_plugin_registrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/windows/flutter/generated_plugin_registrant.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/vegetable_app/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/projects/vegetable_app/windows/flutter/generated_plugins.cmake" afterDir="false" />
-
+      <change beforePath="$PROJECT_DIR$/projects/canteen_app/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/canteen_app/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/canteen_app/lib/Screen/Register/RegisterChild.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/canteen_app/lib/Screen/Register/RegisterChild.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/canteen_app/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/projects/canteen_app/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/canteen_app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/projects/canteen_app/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/canteen_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/canteen_app/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,11 +64,15 @@
     <setting file="file://$PROJECT_DIR$/projects/vegetable_app/lib/screens/select_language.dart" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2CJEsMaDtPtObijNcKThf6fco87" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
@@ -100,9 +86,18 @@
     <property name="settings.editor.selected.configurable" value="dart.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager" selected="Flutter.main.dart (1)">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\flutter-ui-templates\projects\canteen_app\lib\Screens\Register" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Flutter.main.dart (2)">
     <configuration name="main.dart (1)" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/projects/vegetable_app/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main.dart (2)" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/projects/canteen_app/lib/main.dart" />
       <method v="2" />
     </configuration>
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter" nameIsGenerated="true">
@@ -111,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Flutter.main.dart (2)" />
         <item itemvalue="Flutter.main.dart (1)" />
       </list>
     </recent_temporary>
@@ -140,5 +136,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
