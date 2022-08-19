@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:vegetable_app/screens/best_farmers.dart';
 import 'package:vegetable_app/screens/dashboard.dart';
 import 'package:vegetable_app/screens/data_entry.dart';
+import 'package:vegetable_app/screens/dealer_screen_2.dart';
 import 'package:vegetable_app/screens/notification.dart';
 import 'package:vegetable_app/screens/register.dart';
 import 'package:vegetable_app/screens/select_language.dart';
@@ -42,7 +43,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
 
-      home: const Dashboard(),
+      home: const DealerScreen2(),
     );
   }
 }

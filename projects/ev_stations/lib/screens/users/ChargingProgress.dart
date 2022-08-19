@@ -1,3 +1,4 @@
+import 'package:ev_stations/screens/users/success.dart';
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_gauges/gauges.dart';
 class ChargingProgress extends StatefulWidget {
@@ -8,7 +9,7 @@ class ChargingProgress extends StatefulWidget {
 }
 
 class _ChargingProgressState extends State<ChargingProgress> {
-  double progressValue = 36.0;
+  double progressValue = 51.0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -175,7 +176,10 @@ class _ChargingProgressState extends State<ChargingProgress> {
                 ),
                 height: 50,
                 width: 330,
-                child: const Center(child:  Text('STOP',style: TextStyle(color: Colors.white,fontSize: 25,letterSpacing:10),),),
+                child: Center(child:  GestureDetector(onTap: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=> const SuccessScreen()));
+                },
+                    child: Text('STOP',style: TextStyle(color: Colors.white,fontSize: 25,letterSpacing:10),)),),
               ),
             ),
           )

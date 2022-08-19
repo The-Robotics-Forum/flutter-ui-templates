@@ -1,9 +1,26 @@
 // connection
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 
-class Connection extends StatelessWidget {
+import 'ChargingProgress.dart';
+
+class Connection extends StatefulWidget {
   const Connection({Key? key}) : super(key: key);
 
+  @override
+  State<Connection> createState() => _ConnectionState();
+}
+
+class _ConnectionState extends State<Connection> {
+  @override
+  void initState() {
+    super.initState();
+    Timer(
+        const Duration(seconds: 2),
+            () => Navigator.pushReplacement(context,
+            MaterialPageRoute(builder: (context) => const ChargingProgress())));
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -18,3 +35,4 @@ class Connection extends StatelessWidget {
     );
   }
 }
+

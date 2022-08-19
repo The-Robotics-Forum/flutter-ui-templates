@@ -1,4 +1,5 @@
 // confirming
+import 'package:ev_stations/screens/users/connection.dart';
 import 'package:flutter/material.dart';
 import 'package:slide_to_act/slide_to_act.dart';
 
@@ -115,7 +116,7 @@ class _ConfirmingScreenState extends State<ConfirmingScreen> {
                 outerColor: const Color(0xFF20BCDE),
                 onSubmit: () {
                   Navigator.of(context).push(MaterialPageRoute(
-                      builder: (context) => const ChargingProgress()));
+                      builder: (context) => const Connection()));
                 },
                 sliderButtonIconPadding: 8,
 
