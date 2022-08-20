@@ -6,6 +6,8 @@ import 'package:url_launcher/url_launcher.dart';
 import 'package:lottie/lottie.dart';
 import 'package:torch_light/torch_light.dart';
 
+import 'charging.dart';
+
 class Scanner extends StatefulWidget {
   const Scanner({Key? key}) : super(key: key);
 
@@ -16,6 +18,7 @@ class Scanner extends StatefulWidget {
 class _ScannerState extends State<Scanner> {
   final GlobalKey qrKey = GlobalKey(debugLabel: 'QR');
   late QRViewController controller;
+
 
   @override
   void dispose() {
@@ -89,8 +92,7 @@ class _ScannerState extends State<Scanner> {
                 TextButton(
                   child: const Text('Ok'),
                   onPressed: () {
-                    Navigator.of(context).pop();
-                    _launchInBrowser(Uri.parse((scanData.code)!));
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=> const ChargingScreen()));
                   },
                 ),
               ],

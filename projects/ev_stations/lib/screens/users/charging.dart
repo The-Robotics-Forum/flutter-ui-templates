@@ -1,6 +1,9 @@
 // charging
 import 'package:flutter/material.dart';
 
+import 'confirming.dart';
+import 'connection.dart';
+
 class ChargingScreen extends StatefulWidget {
   const ChargingScreen({Key? key}) : super(key: key);
 
@@ -412,14 +415,19 @@ class _ChargingScreenState extends State<ChargingScreen> {
                 decoration: BoxDecoration(
                     color: const Color(0xFF20BCDE),
                     borderRadius: BorderRadius.circular(10)),
-                child: const Center(
-                  child: Text('Estimate',
-                      style: TextStyle(
-                        fontSize: 20,
-                        letterSpacing: 5.0,
-                        color: Colors.white,
-                        fontWeight: FontWeight.bold,
-                      )),
+                child: Center(
+                  child: GestureDetector(
+                    onTap: (){
+                      Navigator.push(context, MaterialPageRoute(builder: (context)=> const ConfirmingScreen()));
+                    },
+                    child: Text('Estimate',
+                        style: TextStyle(
+                          fontSize: 20,
+                          letterSpacing: 5.0,
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                        )),
+                  ),
                 ),
               ),
             ),
