@@ -35,6 +35,7 @@
       <change afterPath="$PROJECT_DIR$/projects/canteen_app/lib/Screen/bottom_nav_bar.dart" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/projects/canteen_app/lib/Screen/starter_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/flutter-ui-templates.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flutter-ui-templates.iml" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/canteen_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/canteen_app/lib/main.dart" afterDir="false" />
