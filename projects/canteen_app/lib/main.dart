@@ -1,6 +1,8 @@
 import 'package:canteen_app/Screen/Register/registrationScreen.dart';
 import 'package:canteen_app/Screen/login_page-II.dart';
 import 'package:canteen_app/Screen/starter_page.dart';
+import 'package:canteen_app/Screen/starter_page.dart';
+import 'package:canteen_app/Screen/order_page.dart';
 import 'package:canteen_app/dashboard.dart';
 import 'package:flutter/material.dart';
 
@@ -21,6 +23,7 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       home: const LoginScreen(),
+      home: const StaterPageScreen(),
     );
   }
 }

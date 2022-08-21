@@ -37,6 +37,7 @@ dependencies:
   google_fonts: ^3.0.1
   image_picker: ^0.8.5+3
   salomon_bottom_bar: ^3.3.1
+  flutter_slidable: ^2.0.0
 
 
 dev_dependencies:
