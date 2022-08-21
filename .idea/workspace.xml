@@ -28,21 +28,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90e2ba15-f2ee-43db-9264-26b0332bf788" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/projects/canteen_app/assets/FilterIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/canteen_app/assets/Frame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/canteen_app/assets/StarterMenu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/canteen_app/assets/notifiaction.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/canteen_app/lib/Screen/bottom_nav_bar.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/canteen_app/lib/Screen/starter_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/flutter-ui-templates.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flutter-ui-templates.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/canteen_app/assets/LoginLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/canteen_app/lib/Screen/login_page-II.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/canteen_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/projects/canteen_app/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/canteen_app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/projects/canteen_app/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/canteen_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/canteen_app/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/templates/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/projects/templates/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/templates/windows/flutter/generated_plugin_registrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/projects/templates/windows/flutter/generated_plugin_registrant.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/templates/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/projects/templates/windows/flutter/generated_plugins.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +48,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="starterpage" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
