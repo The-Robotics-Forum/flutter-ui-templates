@@ -38,6 +38,8 @@ dependencies:
   image_picker: ^0.8.5+3
   salomon_bottom_bar: ^3.3.1
   flutter_slidable: ^2.0.0
+  geolocator: ^9.0.1
+  geocoding: ^2.0.4
 
 
 dev_dependencies:
