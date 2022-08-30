@@ -1,6 +1,7 @@
 import 'package:canteen_app/Screen/Register/registrationScreen.dart';
 import 'package:canteen_app/Screen/confirm_order.dart';
 import 'package:canteen_app/Screen/login_page-II.dart';
+import 'package:canteen_app/Screen/set_location_screen.dart';
 import 'package:canteen_app/Screen/starter_page.dart';
 import 'package:canteen_app/Screen/starter_page.dart';
 import 'package:canteen_app/Screen/order_page.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const ConfirmOrderScreen(),
+      home: const SetLocationScreen(),
 
     );
   }
